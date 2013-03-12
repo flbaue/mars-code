@@ -21,7 +21,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>fully.qualified.MainClass</mainClass>
+                            <mainClass>flbaue.xls.test.converter.TestConverter</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
