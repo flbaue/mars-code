@@ -4,6 +4,10 @@
  */
 package flbaue.lotto.system.gen;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -16,7 +20,7 @@ public class LottoSystemGen {
 
     private int[] numbers;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         LottoSystemGen lsg = new LottoSystemGen(args);
         lsg.run();
@@ -36,12 +40,28 @@ public class LottoSystemGen {
 
     }
 
-    public void run() {
+    public void run() throws IOException {
 
         List<List<Integer>> com = combinations(numbers, 0, 6);
 
-        System.out.println("Menge: " + com.size());
-        System.out.println(com);
+//        System.out.println("Menge: " + com.size());
+//        System.out.println(com);
+
+        File file = new File("blocks.txt");
+        
+        System.out.println(file.getAbsolutePath());
+        
+        BufferedWriter bw = new BufferedWriter(new FileWriter(file, false));
+
+        for (List<Integer> line : com) {
+
+            bw.write(line.toString());
+            bw.newLine();
+
+
+        }
+
+        bw.close();
 
     }
 
