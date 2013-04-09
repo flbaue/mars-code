@@ -31,7 +31,7 @@ public class OneToMany<E> implements OneToManyInterface<E>, Iterable {
 
     @Override
     public boolean addAll(OneToManyInterface<? extends E> e) {
-        return values.addAll(makeCollection(e));
+        return values.addAll(convertToCollection(e));
     }
 
     @Override
@@ -46,7 +46,7 @@ public class OneToMany<E> implements OneToManyInterface<E>, Iterable {
 
     @Override
     public boolean containsAll(OneToManyInterface<? extends E> c) {
-        return values.containsAll(makeCollection(c));
+        return values.containsAll(convertToCollection(c));
     }
 
     @Override
@@ -67,11 +67,11 @@ public class OneToMany<E> implements OneToManyInterface<E>, Iterable {
     @Override
     public OneToManyInterface<E> clone() {
        OneToManyInterface<E> clone = new OneToMany();
-       clone.addAll(makeOneToMany(values));
+       clone.addAll(convertToOneToMany(values));
        return clone;
     }           
 
-    private Collection<E> makeCollection(OneToManyInterface<? extends E> e) {
+    private Collection<E> convertToCollection(OneToManyInterface<? extends E> e) {
         
         Collection<E> collection = new HashSet<E>();
         
@@ -81,14 +81,14 @@ public class OneToMany<E> implements OneToManyInterface<E>, Iterable {
         return collection;   
     }
     
-     private OneToManyInterface<E> makeOneToMany(Collection<? extends E> e) {
+     private OneToManyInterface<E> convertToOneToMany(Collection<? extends E> e) {
         
-        OneToManyInterface<E> collection = new OneToMany<E>();
+        OneToManyInterface<E> oneToMany = new OneToMany<E>();
         
         for(Iterator it = e.iterator(); it.hasNext();) {
-            collection.add((E) it.next());     
+            oneToMany.add((E) it.next());     
         }
-        return collection;   
+        return oneToMany;   
     }
     
 }

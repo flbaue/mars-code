@@ -4,7 +4,6 @@
  */
 package se1p.t1;
 
-import java.util.Collection;
 import java.util.Date;
 
 /**
@@ -35,7 +34,7 @@ public class TestApp {
         System.out.println(bob.getOrderById(orderTwo.getID()));
         System.out.println(bob.getOrderById(orderThree.getID()));
         
-        // Order orderUnsafe = orders.iterator().next(); //Compile Error!
+        //Order orderUnsafe = orders.iterator().next(); //Compile Error!
         OrderROI orderSafe = orders.iterator().next();      
         //orderSafe.changeStatus(OrderStatus.STATUS2); //Compile Error!
         
@@ -51,7 +50,7 @@ public class TestApp {
         System.out.println(bob.getOrderById(orderThree.getID()));
         
         Order orderUnsafe = ordersUnsafe.iterator().next(); 
-        //OrderROI orderSafe = ordersUnsafe.iterator().next(); //Compile Error!     
+        //orderSafe = ordersUnsafe.iterator().next(); 
         orderUnsafe.changeStatus(OrderStatus.STATUS2); 
         
         
