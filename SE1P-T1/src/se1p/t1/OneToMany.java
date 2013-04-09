@@ -16,7 +16,7 @@ import java.util.Set;
  * 
  * @author Florian Bauer
  */
-public class OneToMany<E> implements OneToManyInterface<E> {
+public class OneToMany<E> implements OneToManyInterface<E>, Iterable {
 
     private Set<E> values;
     
@@ -30,8 +30,8 @@ public class OneToMany<E> implements OneToManyInterface<E> {
     }
 
     @Override
-    public boolean addAll(Collection<? extends E> e) {
-        return values.addAll(e);
+    public boolean addAll(OneToManyInterface<? extends E> e) {
+        return values.addAll(makeCollection(e));
     }
 
     @Override
@@ -45,8 +45,8 @@ public class OneToMany<E> implements OneToManyInterface<E> {
     }
 
     @Override
-    public boolean containsAll(Collection<? extends E> c) {
-        return values.containsAll(c);
+    public boolean containsAll(OneToManyInterface<? extends E> c) {
+        return values.containsAll(makeCollection(c));
     }
 
     @Override
@@ -63,6 +63,32 @@ public class OneToMany<E> implements OneToManyInterface<E> {
     public Iterator<E> iterator() {
         return values.iterator();
     }
+
+    @Override
+    public OneToManyInterface<E> clone() {
+       OneToManyInterface<E> clone = new OneToMany();
+       clone.addAll(makeOneToMany(values));
+       return clone;
+    }           
+
+    private Collection<E> makeCollection(OneToManyInterface<? extends E> e) {
+        
+        Collection<E> collection = new HashSet<E>();
+        
+        for(Iterator it = e.iterator(); it.hasNext();) {
+            collection.add((E) it.next());     
+        }
+        return collection;   
+    }
     
-           
+     private OneToManyInterface<E> makeOneToMany(Collection<? extends E> e) {
+        
+        OneToManyInterface<E> collection = new OneToMany<E>();
+        
+        for(Iterator it = e.iterator(); it.hasNext();) {
+            collection.add((E) it.next());     
+        }
+        return collection;   
+    }
+    
 }

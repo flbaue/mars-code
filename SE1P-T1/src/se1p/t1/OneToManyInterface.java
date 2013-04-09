@@ -29,7 +29,7 @@ public interface OneToManyInterface<E> {
      * @param e the Collection
      * @return true or false
      */
-    boolean addAll(Collection<? extends E> e);
+    boolean addAll(OneToManyInterface<? extends E> e);
     
     /**
      * Deletes all Elements from this Collection
@@ -48,7 +48,7 @@ public interface OneToManyInterface<E> {
      * @param c the collection
      * @return true or false
      */
-    boolean containsAll(Collection<? extends E> c);
+    boolean containsAll(OneToManyInterface<? extends E> c);
     
     /**
      * Checks whether a given object is equal
@@ -76,5 +76,11 @@ public interface OneToManyInterface<E> {
      * @return the iterator
      */
     Iterator<E> iterator();
+    
+    /**
+     * Returns a clone of this collection
+     * @return the new collection
+     */
+    OneToManyInterface<E> clone();
     
 }
