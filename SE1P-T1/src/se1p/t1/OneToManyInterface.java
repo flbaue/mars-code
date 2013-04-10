@@ -14,7 +14,7 @@ import java.util.Iterator;
  * 
  * @author Florian Bauer
  */
-public interface OneToManyInterface<E> {
+public interface OneToManyInterface<E> extends Iterable<E>{
 
     /**
      * Adds an Element to the Collection

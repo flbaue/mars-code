@@ -16,7 +16,7 @@ import java.util.Set;
  * 
  * @author Florian Bauer
  */
-public class OneToMany<E> implements OneToManyInterface<E>, Iterable {
+public class OneToMany<E> implements OneToManyInterface<E>{
 
     private Set<E> values;
     

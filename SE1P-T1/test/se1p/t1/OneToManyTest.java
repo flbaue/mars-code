@@ -70,13 +70,13 @@ public class OneToManyTest {
     public void testAddAll() {
         System.out.println("test: addAll");
         
-        OneToMany<String> otm = new OneToMany<String>();
+        OneToManyInterface<String> otm = new OneToMany<String>();
         
         String test1 = "test1";
         String test2 = "test2";
         String test3 = "test3";
         
-        Set<String> set = new HashSet<String>();
+        OneToManyInterface<String> set = new OneToMany<String>();
         set.add(test1);
         set.add(test2);
         set.add(test3);
@@ -142,7 +142,7 @@ public class OneToManyTest {
     public void testContainsAll() {
         System.out.println("test: containsAll");
         
-        OneToMany<String> otm = new OneToMany<String>();
+        OneToManyInterface<String> otm = new OneToMany<String>();
         
         String test1 = "test1";
         String test2 = "test2";
@@ -152,7 +152,7 @@ public class OneToManyTest {
         otm.add(test2);
         otm.add(test3);
         
-        Set<String> set = new HashSet<String>();
+        OneToManyInterface<String> set = new OneToMany<String>();
         set.add(test1);
         set.add(test2);
         set.add(test3);
