@@ -1,4 +1,5 @@
 .DS_Store
+*.DS_Store
 /NetBeansProjects/Utils/target/
 /NetBeansProjects/EchoServer/target/
 /NetBeansProjects/EchoClient/target/
