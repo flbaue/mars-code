@@ -1,0 +1,7 @@
+10:16:01 **** Incremental Build of configuration Release for project Test ****
+Info: Internal Builder is used for build
+clang -O3 -emit-llvm -Wall -c -fmessage-length=0 -o src/Test.bc ../src/Test.c 
+clang -o Test src/Test.bc 
+
+10:16:01 Build Finished (took 150ms)
+

@@ -1,0 +1,104 @@
+/**
+ * FLorian Bauer
+ * fbaue@posteo.de
+ * 03.10.2013
+ */
+package fbaue.ad;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * @author florianbauer
+ * 
+ */
+public class Messreihe {
+
+	private static final String PROGRAM_END = "end";
+	private static final String MITTELWERT = "m";
+	private static final String VARIANZ = "v";
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		new Messreihe().run();
+
+	}
+
+	private void run() {
+		System.out.println("Wählen Sie einen Modus:");
+		System.out.println("1: Normal");
+		System.out.println("2: Optimiert");
+		System.out.print("Modus: ");
+		int modus = Integer.parseInt(readLineFromConsole());
+		System.out.println("Program beenden mit 'end'");
+
+		if (modus == 1) {
+			normal();
+		}
+		if (modus == 2) {
+			optimiert();
+		}
+
+	}
+
+	private void normal() {
+
+		System.out.println("m: Mittelwert");
+		System.out.println("v: Varianz");
+		
+		List<Double> werte = new ArrayList<>();
+		int i = 0;
+		
+		while (true) {
+			System.out.println("Wert " + ++i + ": ");
+			String input = readLineFromConsole();
+
+			if (input.equalsIgnoreCase(PROGRAM_END)) {
+				break;
+			}
+			else if(input.equalsIgnoreCase(MITTELWERT)){
+				System.out.println("Mittelwert: " + mittelwert(werte));
+			}
+			else if(input.equalsIgnoreCase(VARIANZ)){
+				//TODO Varianz berechnen
+			} else {
+				werte.add(Double.valueOf(input));
+			}
+		}
+		
+
+	}
+	
+	private double mittelwert(List<Double> werte) {
+		double sum = 0;
+		int n = werte.size();
+		for(Double wert : werte) {
+			sum += wert;
+		}
+		return 1/n * sum;
+	}
+
+	private void optimiert() {
+		// TODO Auto-generated method stub
+		System.out.println("optimiert: not yet implemented.");
+	}
+
+	private String readLineFromConsole() {
+
+		BufferedReader reader = new BufferedReader(new InputStreamReader(
+				System.in));
+		String line = "";
+		try {
+			line = reader.readLine();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return line;
+	}
+}

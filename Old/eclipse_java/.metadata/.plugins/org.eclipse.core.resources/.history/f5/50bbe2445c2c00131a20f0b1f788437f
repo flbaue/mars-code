@@ -1,0 +1,64 @@
+/**
+ * FLorian Bauer
+ * fbaue@posteo.de
+ * 03.10.2013
+ */
+package fbaue.ad;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+/**
+ * @author florianbauer
+ * 
+ */
+public class Messreihe {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		new Messreihe().run();
+
+	}
+
+	private void run() {
+		System.out.println("Wählen Sie einen Modus:");
+		System.out.println("1: Normal");
+		System.out.println("2: Optimiert");
+		System.out.print("Modus: ");
+		int modus = Integer.parseInt(readLineFromConsole());
+		
+		if (modus == 1) {
+			normal();
+		}
+		if (modus == 2) {
+			optimiert();
+		}
+
+	}
+
+	private void normal() {
+		System.out.println("normal");
+	}
+
+	private void optimiert() {
+		// TODO Auto-generated method stub
+		System.out.println("optimiert");
+	}
+
+	private String readLineFromConsole(){
+		
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		String line = "";
+		try {
+			line = reader.readLine();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		return line;
+	}
+}

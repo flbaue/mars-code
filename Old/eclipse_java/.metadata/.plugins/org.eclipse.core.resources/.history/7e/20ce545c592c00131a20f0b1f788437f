@@ -1,0 +1,10 @@
+package fbaue.ad;
+
+public class Messreihe {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

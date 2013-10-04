@@ -1,0 +1,81 @@
+package fbaue.ad.liste;
+
+public class AdListeImpl<T> implements AdListeInterface<T> {
+
+	AdListeElement head;
+
+	@Override
+	public void cons(T elem) {
+		if (head == null) {
+			head = new AdListeElement(elem, null);
+		} else {
+			AdListeElement newHead = new AdListeElement(elem, head);
+			head = newHead;
+		}
+
+	}
+
+	@Override
+	public T head() {
+		if (head == null) {
+			return null;
+		}
+		AdListeElement oldHead = head;
+		if (head.hasNext()) {
+			head = head.getNext();
+		} else {
+			head = null;
+		}
+		return oldHead.getData();
+	}
+
+	@Override
+	public int length() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void insert(T elem, int position) {
+		// TODO Auto-generated method stub
+
+	}
+
+	private class AdListeElement {
+		private T data;
+		private AdListeElement next;
+
+		private AdListeElement(T data, AdListeElement next) {
+			setData(data);
+			setNext(next);
+		}
+
+		private T getData() {
+			return data;
+		}
+
+		private void setData(T data) {
+			this.data = data;
+		}
+
+		private AdListeElement getNext() {
+			return next;
+		}
+
+		private void setNext(AdListeElement next) {
+			this.next = next;
+		}
+
+		private boolean hasNext() {
+			return (getNext() == null) ? false : true;
+		}
+
+	}
+
+}

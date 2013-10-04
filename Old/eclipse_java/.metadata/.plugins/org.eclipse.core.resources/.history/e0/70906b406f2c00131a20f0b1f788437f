@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package fbaue.ad.liste;
+
+/**
+ * @author florianbauer
+ *
+ */
+public interface ADListeInterface {
+
+}

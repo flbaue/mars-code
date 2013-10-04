@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+environment/buildEnvironmentInclude/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.1220060607/CPATH/delimiter=\:
+environment/buildEnvironmentInclude/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.1220060607/CPATH/operation=remove
+environment/buildEnvironmentInclude/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.1220060607/C_INCLUDE_PATH/delimiter=\:
+environment/buildEnvironmentInclude/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.1220060607/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.1220060607/append=true
+environment/buildEnvironmentInclude/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.1220060607/appendContributed=true

@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+environment/buildEnvironmentInclude/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.1220060607/CPATH/delimiter=\:
+environment/buildEnvironmentInclude/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.1220060607/CPATH/operation=remove
+environment/buildEnvironmentInclude/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.1220060607/C_INCLUDE_PATH/delimiter=\:
+environment/buildEnvironmentInclude/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.1220060607/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.1220060607/append=true
+environment/buildEnvironmentInclude/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.1220060607/appendContributed=true
+environment/buildEnvironmentInclude/cdt.managedbuild.config.llvm.clang.macosx.exe.release.517445496/CPATH/delimiter=\:
+environment/buildEnvironmentInclude/cdt.managedbuild.config.llvm.clang.macosx.exe.release.517445496/CPATH/operation=remove
+environment/buildEnvironmentInclude/cdt.managedbuild.config.llvm.clang.macosx.exe.release.517445496/C_INCLUDE_PATH/delimiter=\:
+environment/buildEnvironmentInclude/cdt.managedbuild.config.llvm.clang.macosx.exe.release.517445496/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/cdt.managedbuild.config.llvm.clang.macosx.exe.release.517445496/append=true
+environment/buildEnvironmentInclude/cdt.managedbuild.config.llvm.clang.macosx.exe.release.517445496/appendContributed=true
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.1220060607/LIBRARY_PATH/delimiter=\:
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.1220060607/LIBRARY_PATH/operation=remove
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.1220060607/append=true
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.1220060607/appendContributed=true

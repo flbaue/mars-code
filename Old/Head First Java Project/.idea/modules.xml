@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BeatBox/BeatBox.iml" filepath="$PROJECT_DIR$/BeatBox/BeatBox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BorderLayoutTest/BorderLayoutTest.iml" filepath="$PROJECT_DIR$/BorderLayoutTest/BorderLayoutTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chat/Chat.iml" filepath="$PROJECT_DIR$/Chat/Chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EinfaacheGui1/EinfaacheGui1.iml" filepath="$PROJECT_DIR$/EinfaacheGui1/EinfaacheGui1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GrafikWidget/GrafikWidget.iml" filepath="$PROJECT_DIR$/GrafikWidget/GrafikWidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearningCards/LearningCards.iml" filepath="$PROJECT_DIR$/LearningCards/LearningCards.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiniMusicPlayer1/MiniMusicPlayer1.iml" filepath="$PROJECT_DIR$/MiniMusicPlayer1/MiniMusicPlayer1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiniMusicPlayer2/MiniMusicPlayer2.iml" filepath="$PROJECT_DIR$/MiniMusicPlayer2/MiniMusicPlayer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiniMusikKommZeile/MiniMusikKommZeile.iml" filepath="$PROJECT_DIR$/MiniMusikKommZeile/MiniMusikKommZeile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ratgeberonkel/Ratgeberonkel.iml" filepath="$PROJECT_DIR$/Ratgeberonkel/Ratgeberonkel.iml" />
+    </modules>
+  </component>
+</project>
+

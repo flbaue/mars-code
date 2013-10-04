@@ -1,0 +1,53 @@
+/**
+ * FLorian Bauer
+ * fbaue@posteo.de
+ * 03.10.2013
+ */
+package fbaue.ad;
+
+/**
+ * @author florianbauer
+ *
+ */
+public class Messreihe {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		new Messreihe().run();
+
+	}
+
+	private void run() {
+		System.out.println("Wählen Sie einen Modus:");
+		System.out.println("1: Normal");
+		System.out.println("2: Optimiert");
+		System.out.println("Modus: ");
+		
+		//TODO: Zahl einlesen
+		int modus = 1;
+		
+		if(modus == 1) {
+			normal();
+		}
+		if(modus == 2) {
+			optimiert();
+		}
+		
+	}
+
+	private void normal() {
+		
+		
+	}
+
+	private void optimiert() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	private 
+
+}
