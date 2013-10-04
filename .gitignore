@@ -1,5 +1,8 @@
 .DS_Store
 *.DS_Store
+*/.metadata/
+*/RemoteSystemsTempFiles/
+*/bin/
 /NetBeansProjects/Utils/target/
 /NetBeansProjects/EchoServer/target/
 /NetBeansProjects/EchoClient/target/
