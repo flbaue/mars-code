@@ -12,7 +12,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 /**
- * @author florianbauer
+ * @author Florian Bauer
  * 
  */
 public class AdListeInterfaceTest {
