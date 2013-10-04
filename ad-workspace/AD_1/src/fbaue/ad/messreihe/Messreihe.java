@@ -12,7 +12,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author florianbauer
+ * This program demonstrates two ways to calculate "Mittelwert" and "Varianz".
+ * it can also be used through the static mathods mittelwertBerechnen(..) and
+ * varianzBerechnen(..).
+ * 
+ * @author Florian Bauer
+ * 
  * 
  */
 public class Messreihe {
@@ -22,7 +27,10 @@ public class Messreihe {
 	private static final String VARIANZ = "v";
 
 	/**
+	 * Program start.
+	 * 
 	 * @param args
+	 *            are not used
 	 */
 	public static void main(String[] args) {
 
@@ -30,6 +38,9 @@ public class Messreihe {
 
 	}
 
+	/**
+	 * Start routine with main menu on the console.
+	 */
 	private void run() {
 		System.out.println("Wählen Sie einen Modus:");
 		System.out.println("1: Normal");
@@ -49,7 +60,10 @@ public class Messreihe {
 
 	}
 
-	private void normal() {
+	/**
+	 * The optimized version of the program.
+	 */
+	private void optimiert() {
 
 		final List<Double> werte = new ArrayList<>();
 		int i = 1;
@@ -80,6 +94,13 @@ public class Messreihe {
 
 	}
 
+	/**
+	 * Calculates the "Varianz". Is part of the optimized version.
+	 * 
+	 * @param werte
+	 *            list of input values
+	 * @return the "Varianz"
+	 */
 	private double varianz(final List<Double> werte) {
 		double sum = 0;
 		final double avg = mittelwert(werte);
@@ -91,6 +112,13 @@ public class Messreihe {
 		return Math.sqrt(factor * sum);
 	}
 
+	/**
+	 * Calculates the "Mittelwert". Is part of the optimized version.
+	 * 
+	 * @param werte
+	 *            list of input values
+	 * @return the "Mittelwert"
+	 */
 	private double mittelwert(final List<Double> werte) {
 		double sum = 0;
 		final int n = werte.size();
@@ -100,7 +128,11 @@ public class Messreihe {
 		return (1.0 / n) * sum;
 	}
 
-	private void optimiert() {
+	/**
+	 * The unoptimized ("naive") implementation of the program
+	 * 
+	 */
+	private void normal() {
 		double varianzSum = 0;
 		double mittelwertSum = 0;
 		int i = 1;
@@ -110,7 +142,7 @@ public class Messreihe {
 			if (input.equalsIgnoreCase(PROGRAM_END)) {
 				break;
 			} else if (input.equalsIgnoreCase(MITTELWERT)) {
-				double mittelwert = 1.0 / (i-1) * mittelwertSum;
+				double mittelwert = 1.0 / (i - 1) * mittelwertSum;
 				System.out.println("Mittelwert: " + mittelwert);
 			} else if (input.equalsIgnoreCase(VARIANZ)) {
 				double varianz = Math.sqrt(1.0 / (i - 2) * varianzSum);
@@ -131,6 +163,11 @@ public class Messreihe {
 		}
 	}
 
+	/**
+	 * Utility method to read a text input line from the console.
+	 * 
+	 * @return the input line as {@link String}
+	 */
 	private String readLineFromConsole() {
 
 		BufferedReader reader = new BufferedReader(new InputStreamReader(
@@ -143,5 +180,31 @@ public class Messreihe {
 		}
 
 		return line;
+	}
+
+	/**
+	 * Public static method to calculate the "Mittelwert". For use in other
+	 * programs. This methode uses the optimized calculation.
+	 * 
+	 * @param werte
+	 *            a list of double values
+	 * @return the "Mittelwert" as double
+	 */
+	public static double mittelwertBerechnen(List<Double> werte) {
+		Messreihe messreihe = new Messreihe();
+		return messreihe.mittelwert(werte);
+	}
+
+	/**
+	 * Public static method to calculate the "Varianz". For use in other
+	 * programs. This methode uses the optimized calculation.
+	 * 
+	 * @param werte
+	 *            a list of double values
+	 * @return the "varianz" as double
+	 */
+	public static double varianzBerechnen(List<Double> werte) {
+		Messreihe messreihe = new Messreihe();
+		return messreihe.varianz(werte);
 	}
 }

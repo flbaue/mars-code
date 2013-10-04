@@ -1,5 +1,7 @@
 /**
- * 
+ * FLorian Bauer
+ * fbaue@posteo.de
+ * 03.10.2013
  */
 package fbaue.ad.liste;
 
@@ -11,7 +13,7 @@ import org.junit.Test;
 
 /**
  * @author florianbauer
- *
+ * 
  */
 public class AdListeInterfaceTest {
 

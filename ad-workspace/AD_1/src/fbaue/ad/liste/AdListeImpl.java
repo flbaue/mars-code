@@ -1,10 +1,14 @@
+/**
+ * FLorian Bauer
+ * fbaue@posteo.de
+ * 03.10.2013
+ */
 package fbaue.ad.liste;
 
 /**
  * AdListeImpl implements the {@link AdListeInterface} as a simple linked list.
  * 
  * @author Florian Bauer
- * @version 1.0
  * 
  * @param <T>
  */
