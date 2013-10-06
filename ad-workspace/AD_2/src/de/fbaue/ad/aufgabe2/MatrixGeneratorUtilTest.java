@@ -16,9 +16,12 @@ import org.junit.Test;
  */
 public class MatrixGeneratorUtilTest {
 
+    /**
+     * 
+     */
     @Test
     public void randomMatrixTest() {
-	double[][] matrix = MatrixGeneratorUtil.randomMatrix(15,0,100,50);
+	double[][] matrix = MatrixGeneratorUtil.randomMatrix(15,0,100,90);
 	assertTrue(matrix.length == 15);
 	assertTrue(matrix[0].length == 15);
     }
