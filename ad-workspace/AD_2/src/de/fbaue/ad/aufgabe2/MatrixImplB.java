@@ -7,7 +7,6 @@
 package de.fbaue.ad.aufgabe2;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
@@ -37,7 +36,7 @@ public class MatrixImplB implements MatrixInterface {
 	    this.values[y] = new ArrayList<ElementVO>();
 	    for (int x = 0; x < matrix.length; x++) {
 		if (matrix[y][x] != 0) {
-		    setValue(matrix[y][x], x, y, false);
+		    setValue(matrix[y][x], x, y);
 		}
 	    }
 	}
@@ -51,7 +50,7 @@ public class MatrixImplB implements MatrixInterface {
 	for (int y = 0; y < values.length; y++) {
 	    for (int x = 0; x < values.length; x++) {
 		double sum = getValue(x, y) + matrix.getValue(x, y);
-		setValue(sum, x, y, false);
+		setValue(sum, x, y);
 	    }
 	}
     }
@@ -64,7 +63,7 @@ public class MatrixImplB implements MatrixInterface {
 	for (int y = 0; y < values.length; y++) {
 	    for (int x = 0; x < values.length; x++) {
 		double sum = getValue(x, y) * scalar;
-		setValue(sum, x, y, false);
+		setValue(sum, x, y);
 	    }
 	}
 
@@ -78,7 +77,7 @@ public class MatrixImplB implements MatrixInterface {
 	for (int y = 0; y < values.length; y++) {
 	    for (int x = 0; x < values.length; x++) {
 		double sum = getValue(x, y) * matrix.getValue(y, x);
-		setValue(sum, x, y, false);
+		setValue(sum, x, y);
 	    }
 	}
 
@@ -115,19 +114,18 @@ public class MatrixImplB implements MatrixInterface {
      * @param y
      * @param sort
      */
-    private void setValue(final double value, final int x, final int y,
-	    boolean sort) {
+    private void setValue(final double value, final int x, final int y) {
 
 	Iterator<ElementVO> iterator = values[y].iterator();
 	while (iterator.hasNext()) {
 	    ElementVO element = iterator.next();
 	    if (element.x == x) {
 		iterator.remove();
+		break;
 	    }
 	}
-	values[y].add(new ElementVO(value, x));
-	if (sort) {
-	    Collections.sort(values[y]);
+	if (value != 0) {
+	    values[y].add(new ElementVO(value, x));
 	}
     }
 
