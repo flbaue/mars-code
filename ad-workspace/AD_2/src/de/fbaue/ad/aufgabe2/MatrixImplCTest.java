@@ -128,5 +128,15 @@ public class MatrixImplCTest {
 	assertTrue(matrix1.getValue(1, 2) == 12.0);
 	assertTrue(matrix1.getValue(2, 2) == 27.0);
     }
+    
+    /**
+     * 
+     */
+    @Test
+    public void randomTest() {
+	MatrixInterface matrix1 = new MatrixImplC(MatrixGeneratorUtil.randomMatrix(2000, 0, 10, 5));
+	MatrixInterface matrix2 = new MatrixImplC(MatrixGeneratorUtil.randomMatrix(2000, 0, 10, 5));
+	matrix1.matrixMultiplication(matrix2);
+    }
 
 }

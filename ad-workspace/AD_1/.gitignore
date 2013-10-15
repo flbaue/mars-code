@@ -8,3 +8,4 @@
 /NetBeansProjects/EchoServer/target/
 /NetBeansProjects/EchoClient/target/
 *.prefs
+/bin

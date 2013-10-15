@@ -1,8 +1,8 @@
 /**
  * Florian Bauer
  * flbaue@posteo.de
- * 06.10.2013
- * MatrixImplBTest.java
+ * 07.10.2013
+ * MatrixImplCTest.java
  */
 package de.fbaue.ad.aufgabe2;
 
@@ -12,9 +12,9 @@ import org.junit.Test;
 
 /**
  * @author Florian Bauer
- * 
+ *
  */
-public class MatrixImplBTest {
+public class MatrixImplCSetTest {
 
     /**
      * 
@@ -22,7 +22,7 @@ public class MatrixImplBTest {
     @Test
     public void initializeTest() {
 
-	MatrixInterface matrix1 = new MatrixImplB(new double[][] { { 1, 1, 1 },
+	MatrixInterface matrix1 = new MatrixImplCSet(new double[][] { { 1, 1, 1 },
 		{ 2, 2, 2 }, { 3, 3, 3 } });
 
 	assertTrue(matrix1.getValue(0, 0) == 1);
@@ -42,9 +42,9 @@ public class MatrixImplBTest {
     @Test
     public void addTest() {
 
-	MatrixInterface matrix1 = new MatrixImplB(new double[][] { { 1, 1, 1 },
+	MatrixInterface matrix1 = new MatrixImplCSet(new double[][] { { 1, 1, 1 },
 		{ 2, 2, 2 }, { 3, 3, 3 } });
-	MatrixInterface matrix2 = new MatrixImplB(new double[][] {
+	MatrixInterface matrix2 = new MatrixImplCSet(new double[][] {
 		{ 1.4, 1.5, 1.6 }, { 2.4, 2.5, 2.6 }, { 3.4, 3.5, 3.6 } });
 
 	matrix1.add(matrix2);
@@ -66,7 +66,7 @@ public class MatrixImplBTest {
     @Test
     public void scalarMultiplicationTest() {
 
-	MatrixInterface matrix1 = new MatrixImplB(new double[][] { { 1, 1, 1 },
+	MatrixInterface matrix1 = new MatrixImplCSet(new double[][] { { 1, 1, 1 },
 		{ 2, 2, 2 }, { 3, 3, 3 } });
 	double scalar = 2.5;
 
@@ -88,9 +88,9 @@ public class MatrixImplBTest {
      */
     @Test
     public void matrixMultiplicationTest() {
-	MatrixInterface matrix1 = new MatrixImplB(new double[][] { { 1, 1, 1 },
+	MatrixInterface matrix1 = new MatrixImplCSet(new double[][] { { 1, 1, 1 },
 		{ 2, 2, 2 }, { 3, 3, 3 } });
-	MatrixInterface matrix2 = new MatrixImplB(new double[][] {
+	MatrixInterface matrix2 = new MatrixImplCSet(new double[][] {
 		{ 1.4, 1.5, 1.6 }, { 2.4, 2.5, 2.6 }, { 3.4, 3.5, 3.6 } });
 
 	matrix1.matrixMultiplication(matrix2);
@@ -112,7 +112,7 @@ public class MatrixImplBTest {
     @Test
     public void powTest() {
 
-	MatrixInterface matrix1 = new MatrixImplB(new double[][] { { 1, 1, 1 },
+	MatrixInterface matrix1 = new MatrixImplCSet(new double[][] { { 1, 1, 1 },
 		{ 2, 2, 2 }, { 3, 3, 3 } });
 	int pow = 3;
 
@@ -134,8 +134,9 @@ public class MatrixImplBTest {
      */
     @Test
     public void randomTest() {
-	MatrixInterface matrix1 = new MatrixImplB(MatrixGeneratorUtil.randomMatrix(2000, 0, 10, 5));
-	MatrixInterface matrix2 = new MatrixImplB(MatrixGeneratorUtil.randomMatrix(2000, 0, 10, 5));
+	MatrixInterface matrix1 = new MatrixImplCSet(MatrixGeneratorUtil.randomMatrix(2000, 0, 10, 5));
+	MatrixInterface matrix2 = new MatrixImplCSet(MatrixGeneratorUtil.randomMatrix(2000, 0, 10, 5));
 	matrix1.matrixMultiplication(matrix2);
     }
+
 }
