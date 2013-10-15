@@ -14,7 +14,7 @@ package fbaue.ad.liste;
  */
 public class AdListeImpl<T> implements AdListeInterface<T> {
 
-	AdListeElement head;
+	AdListeElement<T> head;
 
 	/**
 	 * {@inheritDoc}
@@ -22,9 +22,9 @@ public class AdListeImpl<T> implements AdListeInterface<T> {
 	@Override
 	public void cons(T elem) {
 		if (head == null) {
-			head = new AdListeElement(elem, null);
+			head = new AdListeElement<T>(elem, null);
 		} else {
-			AdListeElement newHead = new AdListeElement(elem, head);
+			AdListeElement<T> newHead = new AdListeElement<T>(elem, head);
 			head = newHead;
 		}
 	}
@@ -37,7 +37,7 @@ public class AdListeImpl<T> implements AdListeInterface<T> {
 		if (head == null) {
 			return null;
 		}
-		AdListeElement oldHead = head;
+		AdListeElement<T> oldHead = head;
 		if (head.hasNext()) {
 			head = head.getNext();
 		} else {
@@ -56,7 +56,7 @@ public class AdListeImpl<T> implements AdListeInterface<T> {
 			return 0;
 		}
 
-		AdListeElement currentElement = head;
+		AdListeElement<T> currentElement = head;
 		int numberOfElements = 1;
 		while (currentElement.hasNext()) {
 			numberOfElements++;
@@ -70,7 +70,7 @@ public class AdListeImpl<T> implements AdListeInterface<T> {
 	 */
 	@Override
 	public boolean isEmpty() {
-		return (head == null) ? true : false;
+		return head == null;
 	}
 
 	/**
@@ -79,21 +79,21 @@ public class AdListeImpl<T> implements AdListeInterface<T> {
 	@Override
 	public void insert(T elem, int position) {
 
-		AdListeElement newElement = new AdListeElement(elem, null);
+		AdListeElement<T> newElement = new AdListeElement<T>(elem, null);
 		if (head == null) {
 			head = newElement;
 		} else if (position == 0) {
 			newElement.setNext(head);
 			head = newElement;
 		} else if (position >= length()) {
-			AdListeElement currentElement = head;
+			AdListeElement<T> currentElement = head;
 			while (currentElement.hasNext()) {
 				currentElement = currentElement.getNext();
 			}
 			currentElement.setNext(newElement);
 		} else {
-			AdListeElement currentElement = head.getNext();
-			AdListeElement previousElement = head;
+			AdListeElement<T> currentElement = head.getNext();
+			AdListeElement<T> previousElement = head;
 			int currentPosition = 1;
 			while (currentPosition < position) {
 				previousElement = currentElement;
@@ -112,9 +112,9 @@ public class AdListeImpl<T> implements AdListeInterface<T> {
 	 * @author florianbauer
 	 * 
 	 */
-	private class AdListeElement {
-		private T data;
-		private AdListeElement next;
+	private class AdListeElement<E> {
+		private E data;
+		private AdListeElement<E> next;
 
 		/**
 		 * Constructs an list element
@@ -124,7 +124,7 @@ public class AdListeImpl<T> implements AdListeInterface<T> {
 		 * @param next
 		 *            the link to the following element. Can be null.
 		 */
-		private AdListeElement(T data, AdListeElement next) {
+		private AdListeElement(E data, AdListeElement<E> next) {
 			setData(data);
 			setNext(next);
 		}
@@ -134,7 +134,7 @@ public class AdListeImpl<T> implements AdListeInterface<T> {
 		 * 
 		 * @return the typed data object
 		 */
-		private T getData() {
+		private E getData() {
 			return data;
 		}
 
@@ -144,7 +144,7 @@ public class AdListeImpl<T> implements AdListeInterface<T> {
 		 * @param data
 		 *            the object
 		 */
-		private void setData(T data) {
+		private void setData(E data) {
 			this.data = data;
 		}
 
@@ -153,7 +153,7 @@ public class AdListeImpl<T> implements AdListeInterface<T> {
 		 * 
 		 * @return the following liked object
 		 */
-		private AdListeElement getNext() {
+		private AdListeElement<E> getNext() {
 			return next;
 		}
 
@@ -163,7 +163,7 @@ public class AdListeImpl<T> implements AdListeInterface<T> {
 		 * @param next
 		 *            the following element
 		 */
-		private void setNext(AdListeElement next) {
+		private void setNext(AdListeElement<E> next) {
 			this.next = next;
 		}
 
@@ -173,7 +173,7 @@ public class AdListeImpl<T> implements AdListeInterface<T> {
 		 * @return true if a following element is linked, false if not
 		 */
 		private boolean hasNext() {
-			return (getNext() == null) ? false : true;
+			return getNext() != null;
 		}
 
 	}
