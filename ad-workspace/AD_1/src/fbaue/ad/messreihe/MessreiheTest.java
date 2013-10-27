@@ -1,0 +1,43 @@
+/**
+ * Impl2MessreiheTest.java
+ * Florian Bauer
+ * flbaue@posteo.de
+ * 26.10.2013
+ */
+package fbaue.ad.messreihe;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+/**
+ * @author Florian Bauer
+ * 
+ */
+public class MessreiheTest {
+
+    @Test
+    public void m1test() {
+	Messreihe m1 = new Impl1Messreihe();
+	m1.addWert(21);
+	m1.addWert(23);
+	m1.addWert(25);
+
+	assertTrue(m1.mittelwert() == 23);
+	assertTrue(m1.varianz() == 2);
+
+    }
+
+    @Test
+    public void m2test() {
+
+	Messreihe m2 = new Impl2Messreihe();
+	m2.addWert(21);
+	m2.addWert(23);
+	m2.addWert(25);
+
+	assertTrue(m2.mittelwert() == 23);
+	assertTrue(m2.varianz() == 2);
+    }
+
+}

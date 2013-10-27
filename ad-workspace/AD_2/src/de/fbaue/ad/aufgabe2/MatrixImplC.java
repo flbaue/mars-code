@@ -7,7 +7,6 @@
 package de.fbaue.ad.aufgabe2;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -47,16 +46,14 @@ public class MatrixImplC implements MatrixInterface {
      */
     @Override
     public void add(MatrixInterface matrix) {
-	Iterator<ElementVO> iterator = values.iterator();
-	while (iterator.hasNext()) {
-	    ElementVO element = iterator.next();
-	    int x = element.x;
-	    int y = element.y;
-	    double sum = element.value + matrix.getValue(x, y);
-	    if (sum != 0) {
-		element.value = sum;
-	    } else {
-		iterator.remove();
+
+	for (int y = 0; y < rowLength; y++) {
+	    for (int x = 0; x < rowLength; x++) {
+		ElementVO elem = getElement(x, y);
+		elem.value = elem.value + matrix.getValue(x, y);
+		if (elem.value == 0) {
+		    values.remove(elem);
+		}
 	    }
 	}
     }
@@ -79,16 +76,17 @@ public class MatrixImplC implements MatrixInterface {
      */
     @Override
     public void matrixMultiplication(MatrixInterface matrix) {
-	Iterator<ElementVO> iterator = values.iterator();
-	while (iterator.hasNext()) {
-	    ElementVO element = iterator.next();
-	    int y = element.x;
-	    int x = element.y;
-	    double otherValue = matrix.getValue(x, y);
-	    if (otherValue != 0) {
-		element.value = element.value * otherValue;
-	    } else {
-		iterator.remove();
+
+	for (int y = 0; y < rowLength; y++) {
+	    for (int x = 0; x < rowLength; x++) {
+		ElementVO elem = getElement(x, y);
+		if (elem.value == 0) {
+		    continue;
+		}
+		elem.value = elem.value * matrix.getValue(y, x);
+		if (elem.value == 0) {
+		    values.remove(elem);
+		}
 	    }
 	}
     }
@@ -104,18 +102,27 @@ public class MatrixImplC implements MatrixInterface {
 	}
     }
 
+    private ElementVO getElement(int x, int y) {
+	ElementVO result = null;
+	for (ElementVO element : values) {
+	    if (element.x == x && element.y == y) {
+		result = element;
+		break;
+	    }
+	}
+	if (result == null) {
+	    result = new ElementVO(0, x, y);
+	}
+	return result;
+    }
+
     /**
      * {@inheritDoc }
      */
     @Override
     public double getValue(int x, int y) {
-	double result = 0;
-	for (ElementVO element : values) {
-	    if (element.x == x && element.y == y) {
-		result = element.value;
-	    }
-	}
-	return result;
+
+	return getElement(x, y).value;
     }
 
     /**

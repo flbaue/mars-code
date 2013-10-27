@@ -6,8 +6,9 @@
  */
 package de.fbaue.ad.aufgabe2;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
+import org.junit.Before;
 import org.junit.Test;
 
 /**
@@ -16,24 +17,45 @@ import org.junit.Test;
  */
 public class MatrixImplATest {
 
+    private MatrixInterface matrixA1;
+    private MatrixInterface matrixA2;
+    private MatrixInterface matrixB1;
+    private MatrixInterface matrixB2;
+    private MatrixInterface matrixC1;
+    private MatrixInterface matrixC2;
+    double[][] valuesA;
+    double[][] valuesB;
+    double[][] valuesC;
+    int n = 3;
+
+    /**
+     * @throws java.lang.Exception
+     */
+    @Before
+    public void setUp() throws Exception {
+
+	valuesA = MatrixGeneratorUtil.randomMatrix(n, 0, 10, 90);
+	matrixA1 = new MatrixImplA(valuesA);
+	matrixA2 = new MatrixImplA(valuesA);
+	valuesB = MatrixGeneratorUtil.randomMatrix(n, 0, 10, 90);
+	matrixB1 = new MatrixImplA(valuesB);
+	matrixB2 = new MatrixImplA(valuesB);
+	valuesC = MatrixGeneratorUtil.randomMatrix(n, 0, 10, 90);
+	matrixC1 = new MatrixImplA(valuesC);
+	matrixC2 = new MatrixImplA(valuesC);
+    }
+
     /**
      * 
      */
     @Test
     public void initializeTest() {
 
-	MatrixInterface matrix1 = new MatrixImplA(new double[][] { { 1, 1, 1 },
-		{ 2, 2, 2 }, { 3, 3, 3 } });
-
-	assertTrue(matrix1.getValue(0, 0) == 1);
-	assertTrue(matrix1.getValue(1, 0) == 1);
-	assertTrue(matrix1.getValue(2, 0) == 1);
-	assertTrue(matrix1.getValue(0, 1) == 2);
-	assertTrue(matrix1.getValue(1, 1) == 2);
-	assertTrue(matrix1.getValue(2, 1) == 2);
-	assertTrue(matrix1.getValue(0, 2) == 3);
-	assertTrue(matrix1.getValue(1, 2) == 3);
-	assertTrue(matrix1.getValue(2, 2) == 3);
+	for (int y = 0; y < n; y++) {
+	    for (int x = 0; x < n; x++) {
+		assertTrue(valuesA[y][x] == matrixA1.getValue(x, y));
+	    }
+	}
     }
 
     /**
@@ -42,22 +64,22 @@ public class MatrixImplATest {
     @Test
     public void addTest() {
 
-	MatrixInterface matrix1 = new MatrixImplA(new double[] { 1, 1, 1, 2, 2,
-		2, 3, 3, 3 }, 3);
-	MatrixInterface matrix2 = new MatrixImplA(new double[] { 1.4, 1.5, 1.6,
-		2.4, 2.5, 2.6, 3.4, 3.5, 3.6 }, 3);
+	matrixA1.add(matrixB1);
+	matrixA1.add(matrixC1);
+	MatrixInterface m1 = matrixA1;
 
-	matrix1.add(matrix2);
+	matrixB2.add(matrixC2);
+	matrixB2.add(matrixA2);
+	MatrixInterface m2 = matrixB2;
 
-	assertTrue(matrix1.getValue(0, 0) == 2.4);
-	assertTrue(matrix1.getValue(1, 0) == 2.5);
-	assertTrue(matrix1.getValue(2, 0) == 2.6);
-	assertTrue(matrix1.getValue(0, 1) == 4.4);
-	assertTrue(matrix1.getValue(1, 1) == 4.5);
-	assertTrue(matrix1.getValue(2, 1) == 4.6);
-	assertTrue(matrix1.getValue(0, 2) == 6.4);
-	assertTrue(matrix1.getValue(1, 2) == 6.5);
-	assertTrue(matrix1.getValue(2, 2) == 6.6);
+	for (int y = 0; y < n; y++) {
+	    for (int x = 0; x < n; x++) {
+		double v1 = round(m1.getValue(x, y), 2);
+		double v2 = round(m2.getValue(x, y), 2);
+		// System.out.println("m1=" + v1 + " m2=" + v2);
+		assertTrue(v1 == v2);
+	    }
+	}
     }
 
     /**
@@ -66,21 +88,27 @@ public class MatrixImplATest {
     @Test
     public void scalarMultiplicationTest() {
 
-	MatrixInterface matrix1 = new MatrixImplA(new double[] { 1, 1, 1, 2, 2,
-		2, 3, 3, 3 }, 3);
-	double scalar = 2.5;
+	double scalar = 1;
 
-	matrix1.scalarMultiplication(scalar);
+	matrixA1.scalarMultiplication(scalar);
 
-	assertTrue(matrix1.getValue(0, 0) == 2.5);
-	assertTrue(matrix1.getValue(1, 0) == 2.5);
-	assertTrue(matrix1.getValue(2, 0) == 2.5);
-	assertTrue(matrix1.getValue(0, 1) == 5.0);
-	assertTrue(matrix1.getValue(1, 1) == 5.0);
-	assertTrue(matrix1.getValue(2, 1) == 5.0);
-	assertTrue(matrix1.getValue(0, 2) == 7.5);
-	assertTrue(matrix1.getValue(1, 2) == 7.5);
-	assertTrue(matrix1.getValue(2, 2) == 7.5);
+	for (int y = 0; y < n; y++) {
+	    for (int x = 0; x < n; x++) {
+		assertTrue(matrixA2.getValue(x, y) == matrixA1.getValue(x, y));
+	    }
+	}
+
+	scalar = 2.5;
+
+	matrixA1.scalarMultiplication(scalar);
+	matrixA2.scalarMultiplication(scalar);
+
+	for (int y = 0; y < n; y++) {
+	    for (int x = 0; x < n; x++) {
+		assertTrue(matrixA2.getValue(x, y) == matrixA1.getValue(x, y));
+	    }
+	}
+
     }
 
     /**
@@ -88,22 +116,19 @@ public class MatrixImplATest {
      */
     @Test
     public void matrixMultiplicationTest() {
-	MatrixInterface matrix1 = new MatrixImplA(new double[] { 1, 1, 1, 2, 2,
-		2, 3, 3, 3 }, 3);
-	MatrixInterface matrix2 = new MatrixImplA(new double[] { 1.4, 1.5, 1.6,
-		2.4, 2.5, 2.6, 3.4, 3.5, 3.6 }, 3);
 
-	matrix1.matrixMultiplication(matrix2);
+	matrixA1.matrixMultiplication(matrixA2);
+	matrixA2.pow(2);
 
-	assertTrue(matrix1.getValue(0, 0) == 1.4);
-	assertTrue(matrix1.getValue(1, 0) == 2.4);
-	assertTrue(matrix1.getValue(2, 0) == 3.4);
-	assertTrue(matrix1.getValue(0, 1) == 3.0);
-	assertTrue(matrix1.getValue(1, 1) == 5.0);
-	assertTrue(matrix1.getValue(2, 1) == 7.0);
-	assertTrue(Math.round(matrix1.getValue(0, 2) * 10) / 10.0 == 4.8);
-	assertTrue(Math.round(matrix1.getValue(1, 2) * 10) / 10.0 == 7.8);
-	assertTrue(Math.round(matrix1.getValue(2, 2) * 10) / 10.0 == 10.8);
+	for (int y = 0; y < n; y++) {
+	    for (int x = 0; x < n; x++) {
+		double v1 = round(matrixA1.getValue(x, y), 2);
+		double v2 = round(matrixA2.getValue(x, y), 2);
+		// System.out.println("m1=" + v1 + " m2=" + v2);
+		assertTrue(v1 == v2);
+	    }
+	}
+
     }
 
     /**
@@ -112,30 +137,38 @@ public class MatrixImplATest {
     @Test
     public void powTest() {
 
-	MatrixInterface matrix1 = new MatrixImplA(new double[] { 1, 1, 1, 2, 2,
-		2, 3, 3, 3 }, 3);
 	int pow = 3;
 
-	matrix1.pow(pow);
+	matrixA1.pow(pow);
+	matrixA2.pow(pow);
 
-	assertTrue(matrix1.getValue(0, 0) == 1.0);
-	assertTrue(matrix1.getValue(1, 0) == 4.0);
-	assertTrue(matrix1.getValue(2, 0) == 9.0);
-	assertTrue(matrix1.getValue(0, 1) == 2.0);
-	assertTrue(matrix1.getValue(1, 1) == 8.0);
-	assertTrue(matrix1.getValue(2, 1) == 18.0);
-	assertTrue(matrix1.getValue(0, 2) == 3.0);
-	assertTrue(matrix1.getValue(1, 2) == 12.0);
-	assertTrue(matrix1.getValue(2, 2) == 27.0);
+	for (int y = 0; y < n; y++) {
+	    for (int x = 0; x < n; x++) {
+		double v1 = round(matrixA1.getValue(x, y), 2);
+		double v2 = round(matrixA2.getValue(x, y), 2);
+		// System.out.println("m1=" + v1 + " m2=" + v2);
+		assertTrue(v1 == v2);
+	    }
+	}
     }
 
     /**
      * 
      */
     @Test
-    public void randomTest() {
-	MatrixInterface matrix1 = new MatrixImplA(MatrixGeneratorUtil.randomMatrix(2000, 0, 10, 5));
-	MatrixInterface matrix2 = new MatrixImplA(MatrixGeneratorUtil.randomMatrix(2000, 0, 10, 5));
+    public void stressTest() {
+	MatrixInterface matrix1 = new MatrixImplA(
+		MatrixGeneratorUtil.randomMatrix(2000, 0, 10, 5));
+	MatrixInterface matrix2 = new MatrixImplA(
+		MatrixGeneratorUtil.randomMatrix(2000, 0, 10, 5));
 	matrix1.matrixMultiplication(matrix2);
+    }
+
+    private double round(double value, int decimal) {
+	int fact = 1;
+	for (int i = 0; i < decimal; i++) {
+	    fact *= 10;
+	}
+	return ((int) (value * fact)) / (fact * 1.0);
     }
 }

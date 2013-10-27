@@ -14,7 +14,8 @@ package fbaue.ad.liste;
  */
 public class AdListeImpl<T> implements AdListeInterface<T> {
 
-    AdListeElement<T> head;
+    private AdListeElement<T> head;
+    private RefCounter counter;
 
     /**
      * {@inheritDoc}
@@ -22,6 +23,7 @@ public class AdListeImpl<T> implements AdListeInterface<T> {
     @Override
     public void cons(T elem) {
 	head = new AdListeElement<T>(elem, head);
+	count();
     }
 
     /**
@@ -33,7 +35,9 @@ public class AdListeImpl<T> implements AdListeInterface<T> {
 	    return null;
 	}
 	T headData = head.getData();
+	count();
 	head = head.getNext();
+	count();
 	return headData;
     }
 
@@ -50,9 +54,12 @@ public class AdListeImpl<T> implements AdListeInterface<T> {
 	AdListeElement<T> currentElement = head;
 	int numberOfElements = 1;
 	while (currentElement.hasNext()) {
+	    count();
 	    numberOfElements++;
 	    currentElement = currentElement.getNext();
+	    count();
 	}
+	count();
 	return numberOfElements;
     }
 
@@ -75,24 +82,46 @@ public class AdListeImpl<T> implements AdListeInterface<T> {
 	    head = newElement;
 	} else if (position <= 0) {
 	    newElement.setNext(head);
+	    count();
 	    head = newElement;
 	} else if (position >= length()) {
 	    AdListeElement<T> currentElement = head;
 	    while (currentElement.hasNext()) {
+		count();
 		currentElement = currentElement.getNext();
+		count();
 	    }
+	    count();
 	    currentElement.setNext(newElement);
+	    count();
 	} else {
 	    AdListeElement<T> currentElement = head.getNext();
+	    count();
 	    AdListeElement<T> previousElement = head;
 	    int currentPosition = 1;
 	    while (currentPosition < position) {
 		previousElement = currentElement;
 		currentElement = currentElement.getNext();
+		count();
 		currentPosition++;
 	    }
 	    previousElement.setNext(newElement);
+	    count();
 	    newElement.setNext(currentElement);
+	    count();
+	}
+    }
+    
+    public RefCounter refCounter() {
+	if(counter == null) {
+	    counter = new RefCounter();
+	}
+	return counter;
+    }
+    
+    private void count() {
+	if(counter != null) {
+	    counter.step();
 	}
     }
 
