@@ -90,7 +90,7 @@ public class AdListeImplTest {
 
 	RefCounter counter = ((AdListeImpl<Integer>) liste).refCounter();
 
-	int n = 10;
+	int n = 30;
 	for (int i = 1; i <= n; i++) {
 	    liste.cons(i);
 	}
@@ -105,10 +105,9 @@ public class AdListeImplTest {
 
 	RefCounter counter = ((AdListeImpl<Integer>) liste).refCounter();
 
-	int n = 10;
+	int n = 30;
 	for (int i = 1; i <= n; i++) {
 	    liste.insert(i, liste.length());
-	    ;
 	}
 
 	System.out.println("Test 7: Adding " + n + " elements to the end took "

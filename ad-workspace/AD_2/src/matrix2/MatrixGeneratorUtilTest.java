@@ -4,7 +4,7 @@
  * 07.10.2013
  * MatrixGeneratorUtilTest.java
  */
-package de.fbaue.ad.aufgabe2;
+package matrix2;
 
 import static org.junit.Assert.*;
 

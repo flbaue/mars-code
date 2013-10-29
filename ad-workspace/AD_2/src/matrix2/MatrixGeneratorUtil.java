@@ -4,7 +4,7 @@
  * 07.10.2013
  * MatrixGenerator.java
  */
-package de.fbaue.ad.aufgabe2;
+package matrix2;
 
 import java.util.Random;
 
@@ -14,6 +14,10 @@ import java.util.Random;
  */
 public class MatrixGeneratorUtil {
 
+    private MatrixGeneratorUtil() {
+	
+    }
+    
     /**
      * Generates a 2D double array to initialize a matrix implementation.
      * 
