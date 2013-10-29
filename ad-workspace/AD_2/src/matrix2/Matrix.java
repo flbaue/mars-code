@@ -18,13 +18,13 @@ public interface Matrix {
 
     Matrix matrixMulti(final Matrix m);
 
-    Matrix pow(int x);
+    Matrix pow(final int x);
 
     double getValue(final int x, final int y);
 
     void setValue(final int x, final int y, final double value);
 
     int getSize();
-    
+
     int getNumberOfStoredElements();
 }

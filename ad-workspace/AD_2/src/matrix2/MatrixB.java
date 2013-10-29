@@ -15,7 +15,7 @@ import java.util.List;
  */
 public class MatrixB extends AbstractMatrix {
 
-    private static final int TYP = 1;
+    private static final MatrixImplType TYPE = MatrixImplType.B;
     private List<Double>[] values;
     private int rowLength;
 
@@ -24,7 +24,7 @@ public class MatrixB extends AbstractMatrix {
      */
     @SuppressWarnings("unchecked")
     public MatrixB(int n) {
-	super(TYP);
+	super(TYPE);
 	rowLength = n;
 	values = new List[rowLength];
 	for (int y = 0; y < rowLength; y++) {
@@ -37,7 +37,7 @@ public class MatrixB extends AbstractMatrix {
      */
     @SuppressWarnings("unchecked")
     public MatrixB(double[][] values) {
-	super(TYP);
+	super(TYPE);
 	rowLength = values.length;
 	this.values = new List[rowLength];
 	for (int y = 0; y < rowLength; y++) {

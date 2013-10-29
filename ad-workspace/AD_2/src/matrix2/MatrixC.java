@@ -15,7 +15,7 @@ import java.util.List;
  */
 public class MatrixC extends AbstractMatrix {
 
-    private static final int TYP = 2;
+    private static final MatrixImplType TYPE = MatrixImplType.C;
     private List<Double> values;
     private int rowLength;
 
@@ -23,7 +23,7 @@ public class MatrixC extends AbstractMatrix {
      * @param typ
      */
     public MatrixC(int n) {
-	super(TYP);
+	super(TYPE);
 	rowLength = n;
 	values = new ArrayList<Double>(rowLength * rowLength);
     }
@@ -32,7 +32,7 @@ public class MatrixC extends AbstractMatrix {
      * @param typ
      */
     public MatrixC(double[][] values) {
-	super(TYP);
+	super(TYPE);
 	rowLength = values.length;
 	this.values = new ArrayList<Double>(rowLength * rowLength);
 	for (int y = 0; y < values.length; y++) {
@@ -49,7 +49,7 @@ public class MatrixC extends AbstractMatrix {
     public double getValue(int x, int y) {
 	int position = rowLength * y + x;
 	Double value = values.get(position);
-	if(value != null)
+	if (value != null)
 	    return value;
 	else
 	    return 0;

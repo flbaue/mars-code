@@ -12,15 +12,15 @@ package matrix2;
  */
 public abstract class AbstractMatrix implements Matrix {
 
-    private static int TYPE;
+    private MatrixImplType type;
 
-    public AbstractMatrix(int type) {
-	TYPE = type;
+    public AbstractMatrix(MatrixImplType type) {
+	this.type = type;
     }
 
     public Matrix add(final Matrix m) {
 
-	Matrix resultMatrix = AbstractMatrix.makeMatrix(TYPE, getSize());
+	Matrix resultMatrix = AbstractMatrix.makeMatrix(type, getSize());
 
 	for (int y = 0; y < getSize(); y++) {
 	    for (int x = 0; x < getSize(); x++) {
@@ -33,7 +33,7 @@ public abstract class AbstractMatrix implements Matrix {
 
     public Matrix scalarMulti(final double s) {
 
-	Matrix resultMatrix = AbstractMatrix.makeMatrix(TYPE, getSize());
+	Matrix resultMatrix = AbstractMatrix.makeMatrix(type, getSize());
 
 	for (int y = 0; y < getSize(); y++) {
 	    for (int x = 0; x < getSize(); x++) {
@@ -46,7 +46,7 @@ public abstract class AbstractMatrix implements Matrix {
 
     public Matrix matrixMulti(final Matrix m) {
 
-	Matrix resultMatrix = AbstractMatrix.makeMatrix(TYPE, getSize());
+	Matrix resultMatrix = AbstractMatrix.makeMatrix(type, getSize());
 
 	for (int y = 0; y < getSize(); y++) {
 	    for (int x = 0; x < getSize(); x++) {
@@ -67,14 +67,18 @@ public abstract class AbstractMatrix implements Matrix {
 	return resultMatrix;
     }
 
-    public static Matrix makeMatrix(int type, int dimension) {
-	if (type == 0)
+    public static Matrix makeMatrix(MatrixImplType type, int dimension) {
+	if (type == MatrixImplType.A)
 	    return new MatrixA(dimension);
-	if (type == 1)
+	if (type == MatrixImplType.B)
 	    return new MatrixB(dimension);
-	if (type == 2)
+	if (type == MatrixImplType.C)
 	    return new MatrixC(dimension);
 
 	throw new IllegalArgumentException("Unkonwn Typ");
+    }
+
+    public enum MatrixImplType {
+	A, B, C;
     }
 }

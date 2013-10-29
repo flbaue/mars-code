@@ -43,9 +43,6 @@ public class MatrixTest {
 	    for (int x = 0; x < n; x++) {
 		assertTrue(a1.getValue(x, y) == a2.getValue(x, y)
 			&& a2.getValue(x, y) == a3.getValue(x, y));
-		assertFalse(a1.getValue(x, y) == b1.getValue(x, y)
-			|| a2.getValue(x, y) == b2.getValue(x, y)
-			|| a3.getValue(x, y) == b3.getValue(x, y));
 	    }
 	}
 

@@ -8,26 +8,26 @@ package matrix2;
 
 /**
  * @author Florian Bauer
- *
+ * 
  */
 public class MatrixA extends AbstractMatrix {
 
-    private static final int TYP = 0;
+    private static final MatrixImplType TYPE = MatrixImplType.A;
     private double[][] values;
-    
+
     /**
      * @param typ
      */
     public MatrixA(int n) {
-	super(TYP);
+	super(TYPE);
 	values = new double[n][n];
     }
-    
+
     /**
      * @param typ
      */
     public MatrixA(double[][] values) {
-	super(TYP);
+	super(TYPE);
 	this.values = values;
     }
 
