@@ -153,9 +153,9 @@ public class MatrixCTest {
      */
     @Test
     public void stressTest() {
-	Matrix matrix1 = new MatrixC(MatrixGeneratorUtil.randomMatrix(2000, 0,
+	Matrix matrix1 = new MatrixC(MatrixGeneratorUtil.randomMatrix(5833, 0,
 		10, 1));
-	Matrix matrix2 = new MatrixC(MatrixGeneratorUtil.randomMatrix(2000, 0,
+	Matrix matrix2 = new MatrixC(MatrixGeneratorUtil.randomMatrix(5833, 0,
 		10, 1));
 	matrix1 = matrix1.matrixMulti(matrix2);
 	System.out.println(matrix1.getNumberOfStoredElements());

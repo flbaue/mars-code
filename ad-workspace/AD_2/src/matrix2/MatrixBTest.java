@@ -153,11 +153,12 @@ public class MatrixBTest {
      */
     @Test
     public void stressTest() {
-	Matrix matrix1 = new MatrixB(MatrixGeneratorUtil.randomMatrix(2000, 0,
-		10, 5));
-	Matrix matrix2 = new MatrixB(MatrixGeneratorUtil.randomMatrix(2000, 0,
-		10, 5));
-	matrix1.matrixMulti(matrix2);
+	Matrix matrix1 = new MatrixB(MatrixGeneratorUtil.randomMatrix(5833, 0,
+		10, 1));
+	Matrix matrix2 = new MatrixB(MatrixGeneratorUtil.randomMatrix(5833, 0,
+		10, 1));
+	matrix1 = matrix1.matrixMulti(matrix2);
+	System.out.println(matrix1.getNumberOfStoredElements());
     }
 
     private double round(double value, int decimal) {
