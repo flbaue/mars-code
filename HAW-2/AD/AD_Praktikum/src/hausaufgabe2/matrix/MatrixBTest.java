@@ -1,9 +1,3 @@
-/*
- * Florian Bauer
- * flbaue@posteo.de
- * 2013
- */
-
 /**
  * Florian Bauer
  * flbaue@posteo.de
@@ -12,7 +6,6 @@
  */
 package hausaufgabe2.matrix;
 
-import hausaufgabe2.matrix.AbstractMatrix.MatrixImplType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -21,18 +14,18 @@ import static org.junit.Assert.assertTrue;
 /**
  * @author Florian Bauer
  */
-public class MatrixATest {
+public class MatrixBTest {
 
-    double[][] valuesA;
-    double[][] valuesB;
-    double[][] valuesC;
-    int n = 3;
     private Matrix matrixA1;
     private Matrix matrixA2;
     private Matrix matrixB1;
     private Matrix matrixB2;
     private Matrix matrixC1;
     private Matrix matrixC2;
+    double[][] valuesA;
+    double[][] valuesB;
+    double[][] valuesC;
+    int n = 3;
 
     /**
      * @throws java.lang.Exception
@@ -41,14 +34,14 @@ public class MatrixATest {
     public void setUp() throws Exception {
 
         valuesA = MatrixGeneratorUtil.randomMatrix(n, 90);
-        matrixA1 = AbstractMatrix.makeMatrix(MatrixImplType.A, valuesA);
-        matrixA2 = AbstractMatrix.makeMatrix(MatrixImplType.A, valuesA);
+        matrixA1 = new MatrixB(valuesA);
+        matrixA2 = new MatrixB(valuesA);
         valuesB = MatrixGeneratorUtil.randomMatrix(n, 90);
-        matrixB1 = AbstractMatrix.makeMatrix(MatrixImplType.A, valuesB);
-        matrixB2 = AbstractMatrix.makeMatrix(MatrixImplType.A, valuesB);
+        matrixB1 = new MatrixB(valuesB);
+        matrixB2 = new MatrixB(valuesB);
         valuesC = MatrixGeneratorUtil.randomMatrix(n, 90);
-        matrixC1 = AbstractMatrix.makeMatrix(MatrixImplType.A, valuesC);
-        matrixC2 = AbstractMatrix.makeMatrix(MatrixImplType.A, valuesC);
+        matrixC1 = new MatrixB(valuesC);
+        matrixC2 = new MatrixB(valuesC);
     }
 
     /**
@@ -159,8 +152,8 @@ public class MatrixATest {
      */
     @Test
     public void stressTest() {
-        Matrix matrix1 = new MatrixA(MatrixGeneratorUtil.randomMatrix(5833, 1));
-        Matrix matrix2 = new MatrixA(MatrixGeneratorUtil.randomMatrix(5833, 1));
+        Matrix matrix1 = new MatrixB(MatrixGeneratorUtil.randomMatrix(5833, 1));
+        Matrix matrix2 = new MatrixB(MatrixGeneratorUtil.randomMatrix(5833, 1));
         matrix1 = matrix1.matrixMulti(matrix2);
         System.out.println(matrix1.getNumberOfStoredElements());
     }

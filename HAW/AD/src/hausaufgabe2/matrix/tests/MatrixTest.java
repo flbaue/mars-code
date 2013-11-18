@@ -10,10 +10,11 @@
  * flbaue@posteo.de
  * 27.10.2013
  */
-package hausaufgabe2.matrix;
+package hausaufgabe2.matrix.tests;
 
 import hausaufgabe1.messreihe.Messreihe;
 import hausaufgabe1.messreihe.MessreiheB;
+import hausaufgabe2.matrix.*;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;

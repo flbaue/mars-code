@@ -10,8 +10,13 @@
  * 06.10.2013
  * MatrixImplATest.java
  */
-package hausaufgabe2.matrix;
+package hausaufgabe2.matrix.tests;
 
+import hausaufgabe2.matrix.AbstractMatrix;
+import hausaufgabe2.matrix.AbstractMatrix.MatrixImplType;
+import hausaufgabe2.matrix.Matrix;
+import hausaufgabe2.matrix.MatrixA;
+import hausaufgabe2.matrix.MatrixGeneratorUtil;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -20,18 +25,18 @@ import static org.junit.Assert.assertTrue;
 /**
  * @author Florian Bauer
  */
-public class MatrixCAdListTest {
+public class MatrixATest {
 
+    double[][] valuesA;
+    double[][] valuesB;
+    double[][] valuesC;
+    int n = 3;
     private Matrix matrixA1;
     private Matrix matrixA2;
     private Matrix matrixB1;
     private Matrix matrixB2;
     private Matrix matrixC1;
     private Matrix matrixC2;
-    double[][] valuesA;
-    double[][] valuesB;
-    double[][] valuesC;
-    int n = 3;
 
     /**
      * @throws java.lang.Exception
@@ -40,14 +45,14 @@ public class MatrixCAdListTest {
     public void setUp() throws Exception {
 
         valuesA = MatrixGeneratorUtil.randomMatrix(n, 90);
-        matrixA1 = new MatrixCAdList(valuesA);
-        matrixA2 = new MatrixCAdList(valuesA);
+        matrixA1 = AbstractMatrix.makeMatrix(MatrixImplType.A, valuesA);
+        matrixA2 = AbstractMatrix.makeMatrix(MatrixImplType.A, valuesA);
         valuesB = MatrixGeneratorUtil.randomMatrix(n, 90);
-        matrixB1 = new MatrixCAdList(valuesB);
-        matrixB2 = new MatrixCAdList(valuesB);
+        matrixB1 = AbstractMatrix.makeMatrix(MatrixImplType.A, valuesB);
+        matrixB2 = AbstractMatrix.makeMatrix(MatrixImplType.A, valuesB);
         valuesC = MatrixGeneratorUtil.randomMatrix(n, 90);
-        matrixC1 = new MatrixCAdList(valuesC);
-        matrixC2 = new MatrixCAdList(valuesC);
+        matrixC1 = AbstractMatrix.makeMatrix(MatrixImplType.A, valuesC);
+        matrixC2 = AbstractMatrix.makeMatrix(MatrixImplType.A, valuesC);
     }
 
     /**
@@ -151,6 +156,17 @@ public class MatrixCAdListTest {
                 assertTrue(v1 == v2);
             }
         }
+    }
+
+    /**
+     *
+     */
+    @Test
+    public void stressTest() {
+        Matrix matrix1 = new MatrixA(MatrixGeneratorUtil.randomMatrix(5833, 1));
+        Matrix matrix2 = new MatrixA(MatrixGeneratorUtil.randomMatrix(5833, 1));
+        matrix1 = matrix1.matrixMulti(matrix2);
+        System.out.println(matrix1.getNumberOfStoredElements());
     }
 
     private double round(double value, int decimal) {

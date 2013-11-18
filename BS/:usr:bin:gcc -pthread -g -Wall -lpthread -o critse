@@ -1,0 +1,14 @@
+/usr/bin/gcc -pthread -g -Wall -lpthread -o critsect02 critsect02.c
+
+
+-------
+
+
+all:  critsect02.c 
+
+CFLAGS=-pthread -g -Wall -o
+LDFLAGS=-lpthread
+
+clean:
+
+

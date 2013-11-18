@@ -10,8 +10,11 @@
  * 06.10.2013
  * MatrixImplATest.java
  */
-package hausaufgabe2.matrix;
+package hausaufgabe2.matrix.tests;
 
+import hausaufgabe2.matrix.Matrix;
+import hausaufgabe2.matrix.MatrixBAdList;
+import hausaufgabe2.matrix.MatrixGeneratorUtil;
 import org.junit.Before;
 import org.junit.Test;
 
