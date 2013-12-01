@@ -17,3 +17,6 @@
 
 # Ignore sublime project files
 *.sublime-*
+
+# Ignore application configuration
+/config/application.yml
