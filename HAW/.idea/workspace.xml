@@ -1,13 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ab99344-2ef4-4cfc-b47c-11316d304dfb" name="Default" comment="" />
+    <list default="true" id="2ab99344-2ef4-4cfc-b47c-11316d304dfb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/List/src/main/java/de/flbaue/list/Counter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/List/src/main/java/de/flbaue/list/LinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/List/src/main/java/de/flbaue/list/LinkedListElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/List/src/test/java/de/flbaue/list/LinkedListElementTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/List/src/test/java/de/flbaue/list/LinkedListTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/List/List.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/List/src/main/java/de/flbaue/list/List.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/.idea/libraries/Maven__junit_junit_4_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/List/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/test/test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AD/src/hausaufgabe1/liste/AdList.java" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe1/liste/AdList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AD/src/hausaufgabe1/liste/DefaultAdList.java" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe1/liste/DefaultAdList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AD/src/hausaufgabe1/liste/DefaultAdListTest.java" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe1/liste/DefaultAdListTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BS/MAKEFILE" afterPath="$PROJECT_DIR$/../BS/MAKEFILE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AD/src/hausaufgabe3/pow/Pow.java" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe3/pow/Pow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AD/src/hausaufgabe3/pow/PowTest.java" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe3/pow/PowTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AD/src/counter/StepCounter.java" afterPath="$PROJECT_DIR$/AD/src/counter/StepCounter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="haw.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1384342047005" ignored="false" />
-    <file path="/fragment.java" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1384342112760" ignored="false" />
-    <file path="$PROJECT_DIR$/AD/src/hausaufgabe3/pow/StepCounter.java" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1384333562038" ignored="false" />
-    <file path="$PROJECT_DIR$/AD/src/counter/StepCounter.java" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1384333562038" ignored="false" />
+    <file path="/Dummy.txt" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1385815448332" ignored="false" />
+    <file path="/fragment.java" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1385833511871" ignored="false" />
+    <file path="/AdList.java" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1385020232349" ignored="false" />
+    <file path="/DefaultAdList.java" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1385819800161" ignored="false" />
+    <file path="/DefaultAdListTest.java" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1385820322026" ignored="false" />
+    <file path="/Pow.java" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1385028288183" ignored="false" />
+    <file path="/StepCounter.java" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1385818797278" ignored="false" />
+    <file path="/Implementation.java" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1385835418609" ignored="false" />
+    <file path="/ImplementationTest.java" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1385834046796" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +47,24 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/AD/src/hausaufgabe52/ImplementationTest.java" line="22" class="hausaufgabe52.ImplementationTest" package="hausaufgabe52">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -58,7 +101,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -68,11 +110,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MatrixCAdListTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe2/matrix/tests/MatrixCAdListTest.java">
+      <file leaf-file-name="Implementation.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe52/Implementation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="13" selection-start="436" selection-end="436" vertical-scroll-proportion="-2.5">
+            <state line="15" column="37" selection-start="165" selection-end="165" vertical-scroll-proportion="0.28610355">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImplementationTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe52/ImplementationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,6 +150,14 @@
       <list>
         <option value="$PROJECT_DIR$/AD/src/hausaufgabe2/matrix/MatrixA.java" />
         <option value="$PROJECT_DIR$/AD/src/test/Test.java" />
+        <option value="$PROJECT_DIR$/AD/src/hausaufgabe1/liste/AdList.java" />
+        <option value="$PROJECT_DIR$/AD/src/hausaufgabe3/pow/PowTest.java" />
+        <option value="$PROJECT_DIR$/AD/src/hausaufgabe3/pow/Pow.java" />
+        <option value="$PROJECT_DIR$/AD/src/counter/StepCounter.java" />
+        <option value="$PROJECT_DIR$/AD/src/hausaufgabe1/liste/DefaultAdList.java" />
+        <option value="$PROJECT_DIR$/AD/src/hausaufgabe1/liste/DefaultAdListTest.java" />
+        <option value="$PROJECT_DIR$/AD/src/hausaufgabe52/ImplementationTest.java" />
+        <option value="$PROJECT_DIR$/AD/src/hausaufgabe52/Implementation.java" />
       </list>
     </option>
   </component>
@@ -132,7 +193,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -164,28 +224,187 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hausaufgabe52" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="fileTemplates" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="hausaufgabe52" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ImplementationTest.testF">
+    <configuration default="false" name="DefaultAdListTest.Aufgabe8" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="AD" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="hausaufgabe1.liste" />
+      <option name="MAIN_CLASS_NAME" value="hausaufgabe1.liste.DefaultAdListTest" />
+      <option name="METHOD_NAME" value="Aufgabe8" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DefaultAdListTest.recInsertTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="AD" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="hausaufgabe1.liste" />
+      <option name="MAIN_CLASS_NAME" value="hausaufgabe1.liste.DefaultAdListTest" />
+      <option name="METHOD_NAME" value="recInsertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PowTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="AD" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="hausaufgabe3.pow" />
+      <option name="MAIN_CLASS_NAME" value="hausaufgabe3.pow.PowTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DefaultAdListTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="AD" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="hausaufgabe1.liste" />
+      <option name="MAIN_CLASS_NAME" value="hausaufgabe1.liste.DefaultAdListTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ImplementationTest.testF" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="AD" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="hausaufgabe52" />
+      <option name="MAIN_CLASS_NAME" value="hausaufgabe52.ImplementationTest" />
+      <option name="METHOD_NAME" value="testF" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -274,7 +493,22 @@
       <patterns />
       <method />
     </configuration>
-    <list size="0" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DefaultAdListTest.Aufgabe8" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DefaultAdListTest.recInsertTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PowTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DefaultAdListTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ImplementationTest.testF" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ImplementationTest.testF" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DefaultAdListTest.recInsertTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DefaultAdListTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PowTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DefaultAdListTest.Aufgabe8" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -317,23 +551,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1276" height="778" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969605" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958813" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878049" sideWeight="0.67021275" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24634147" sideWeight="0.67121214" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24634147" sideWeight="0.60030395" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -405,29 +639,120 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe2/matrix/tests/MatrixCAdListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe2/matrix/tests/MatrixATest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="13" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe2/matrix/tests/MatrixTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="205" column="16" selection-start="6269" selection-end="6269" vertical-scroll-proportion="0.7907743">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe2/matrix/AbstractMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="22" selection-start="3088" selection-end="3088" vertical-scroll-proportion="0.30952382">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe2/matrix/MatrixA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
+        <state line="17" column="13" selection-start="204" selection-end="204" vertical-scroll-proportion="0.33278146">
           <folding>
             <element signature="e#0#1188#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe3/pow/Pow.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="8" selection-start="47" selection-end="47" vertical-scroll-proportion="0.071428575" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe3/pow/PowTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="11" selection-start="370" selection-end="370" vertical-scroll-proportion="0.45238096" />
+        <state line="36" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe2/matrix/tests/MatrixCAdListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="13" selection-start="436" selection-end="436" vertical-scroll-proportion="-2.5">
+        <state line="25" column="13" selection-start="436" selection-end="436" vertical-scroll-proportion="-0.8716707" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="638" column="0" selection-start="23843" selection-end="23843" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe3/pow/PowTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="12" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe3/pow/Pow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="29" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.8575949">
+          <folding>
+            <element signature="e#0#1496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe1/liste/AdList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="8" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD/src/counter/StepCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="10" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe1/liste/DefaultAdListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="195" column="58" selection-start="5193" selection-end="5193" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#5629#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe1/liste/DefaultAdList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="54" selection-start="3524" selection-end="3524" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#6946#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe52/ImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe52/Implementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="37" selection-start="165" selection-end="165" vertical-scroll-proportion="0.28610355">
           <folding />
         </state>
       </provider>

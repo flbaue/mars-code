@@ -16,7 +16,7 @@ public class Pow {
      * @param counter
      * @return
      */
-    public static double pow1(double x, double k, StepCounter counter) {
+    public static double pow1(double x, int k, StepCounter counter) {
         double r = 1;
         for (int i = 0; i < k; i++) {
             r = r * x;
@@ -33,7 +33,7 @@ public class Pow {
      * @param counter
      * @return
      */
-    public static double pow2(double x, double k, StepCounter counter) {
+    public static double pow2(double x, int k, StepCounter counter) {
         if (k == 0) {
             return 1;
         } else if ((k % 2) == 0) {
@@ -54,7 +54,7 @@ public class Pow {
      * @param counter
      * @return
      */
-    public static double pow3(double x, double k, StepCounter counter) {
+    public static double pow3(double x, int k, StepCounter counter) {
         if (k == 0) {
             return 1;
         } else if ((k % 2) == 0) {

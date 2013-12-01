@@ -18,11 +18,8 @@ package counter;
 public class StepCounter {
     private int steps;
 
-    public StepCounter() {
-        steps = 0;
-    }
-
     public void step() {
+//        System.out.println("tick!");
         steps++;
     }
 

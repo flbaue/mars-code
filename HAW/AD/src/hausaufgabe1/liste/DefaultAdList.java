@@ -22,7 +22,7 @@ import counter.StepCounter;
 public class DefaultAdList<T> implements AdList<T> {
 
     private AdListElement<T> head;
-    private StepCounter counter = new StepCounter();
+    private StepCounter counter;
     private int size = 0;
 
     /**
@@ -88,7 +88,7 @@ public class DefaultAdList<T> implements AdList<T> {
         } else if (position <= 0) {
             newElement.setNext(head);
             head = newElement;
-        } else if (position >= length()) {
+        } else if (position >= size()) {
             AdListElement<T> currentElement = head;
             while (currentElement.hasNext()) {
                 currentElement = currentElement.getNext();
@@ -105,6 +105,36 @@ public class DefaultAdList<T> implements AdList<T> {
             }
             previousElement.setNext(newElement);
             newElement.setNext(currentElement);
+        }
+    }
+
+    @Override
+    public void recInsert(T elem, int position) {
+        size++;
+        if (position == 0) {
+            AdListElement<T> newElem = new AdListElement<T>(elem, head);
+            head = newElem;
+        } else {
+            AdListElement<T> currentElem = head;
+            recInsert(currentElem, elem, position);
+        }
+    }
+
+    private void recInsert(AdListElement<T> currentElem, T elem, int steps) {
+        if (steps == 1) {
+            AdListElement<T> prevElem = currentElem;
+            AdListElement<T> nextElem = currentElem.getNext();
+            AdListElement<T> newElem = new AdListElement<T>(elem, nextElem);
+            prevElem.setNext(newElem);
+        }
+        if (steps > 1) {
+            AdListElement<T> newCurrentElem = currentElem.getNext();
+            if (newCurrentElem == null) {
+                //Wenn die einfügeposition nicht mehr in der liste liegt
+                recInsert(currentElem, elem, 1);
+            } else {
+                recInsert(newCurrentElem, elem, steps - 1);
+            }
         }
     }
 
@@ -164,6 +194,31 @@ public class DefaultAdList<T> implements AdList<T> {
     }
 
     /**
+     * {@inheritDoc }
+     */
+    @Override
+    public int size() {
+        return size;
+    }
+
+//    public String toString() {
+//        String result = "";
+//        AdListElement<T> current = head;
+//        if (head == null) {
+//            return result;
+//        }
+//
+//        result += "Data:" + current.getData() + " -> ";
+//
+//        while (current.hasNext()) {
+//            current = current.getNext();
+//            result += "Data:" + current.getData() + " -> ";
+//        }
+//
+//        return result;
+//    }
+
+    /**
      * AdListeElement is a private inner class to represent an linked element
      * within the {@link DefaultAdList}
      *
@@ -218,7 +273,7 @@ public class DefaultAdList<T> implements AdList<T> {
          * @param next the following element
          */
         private void setNext(AdListElement<E> next) {
-            count();
+            //count();
             this.next = next;
         }
 
@@ -231,14 +286,6 @@ public class DefaultAdList<T> implements AdList<T> {
             return getNext() != null;
         }
 
-    }
-
-    /**
-     * {@inheritDoc }
-     */
-    @Override
-    public int size() {
-        return size;
     }
 
 }

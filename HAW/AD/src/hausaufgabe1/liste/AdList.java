@@ -56,6 +56,8 @@ public interface AdList<T> {
      */
     void insert(T elem, int position);
 
+    void recInsert(T elem, int position);
+
     /**
      * @param position
      * @return
