@@ -1,38 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ab99344-2ef4-4cfc-b47c-11316d304dfb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/List/src/main/java/de/flbaue/list/Counter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/List/src/main/java/de/flbaue/list/LinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/List/src/main/java/de/flbaue/list/LinkedListElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/List/src/test/java/de/flbaue/list/LinkedListElementTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/List/src/test/java/de/flbaue/list/LinkedListTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/List/List.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/List/src/main/java/de/flbaue/list/List.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/.idea/libraries/Maven__junit_junit_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/List/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/test/test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AD/src/hausaufgabe1/liste/AdList.java" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe1/liste/AdList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AD/src/hausaufgabe1/liste/DefaultAdList.java" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe1/liste/DefaultAdList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AD/src/hausaufgabe1/liste/DefaultAdListTest.java" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe1/liste/DefaultAdListTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BS/MAKEFILE" afterPath="$PROJECT_DIR$/../BS/MAKEFILE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AD/src/hausaufgabe3/pow/Pow.java" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe3/pow/Pow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AD/src/hausaufgabe3/pow/PowTest.java" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe3/pow/PowTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AD/src/counter/StepCounter.java" afterPath="$PROJECT_DIR$/AD/src/counter/StepCounter.java" />
+    <list default="true" id="2ab99344-2ef4-4cfc-b47c-11316d304dfb" name="Default" comment="SE Reservation">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe8/liste/AdList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SE/src/reservationComponent/AdditionalService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/AdditionalService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe8/liste/DefaultAdList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe8/liste/DefaultAdListTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SE/src/guestComponent/EMailType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/EMailType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SEReservation/src/test/java/reservation/guestComponent/EMailTypeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SE/src/guestComponent/Guest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/Guest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SE/src/guestComponent/GuestServices.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SE/src/guestComponent/GuestServicesForReservation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/GuestServicesForReservation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SE/src/databaseService/IAdditionalServicesDB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SE/src/guestComponent/IGuestServices.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SE/src/guestComponent/IGuestServicesForReservation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SE/src/databaseService/IGuestsDB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SE/src/databaseService/IReservationDB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SE/src/reservationComponent/IReservierungServices.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe5/Implementation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe5/ImplementationTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe8/liste/ListElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe6/MuesliMixer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe6/MuesliMixerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe6/MuesliZutat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe7/Point.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe9/Point.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SE/src/reservationComponent/Reservation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/Reservation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/ReservationApp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SE/src/reservationComponent/ReservationServices.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/ReservationServices.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SE/src/reservationComponent/ReservationTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SEReservation/src/test/java/reservation/reservationComponent/ReservationTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SE/SE.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe9/Slope.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe7/StockScanner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe9/StockScanner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe7/StockScanner2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe7/StockScannerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AD/src/hausaufgabe9/StockScannerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AD/src/teststuff/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/TestGuestsDB.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AD/src/hausaufgabe52/Implementation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AD/src/hausaufgabe52/ImplementationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/flbaue.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="haw.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1385815448332" ignored="false" />
-    <file path="/fragment.java" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1385833511871" ignored="false" />
-    <file path="/AdList.java" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1385020232349" ignored="false" />
-    <file path="/DefaultAdList.java" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1385819800161" ignored="false" />
-    <file path="/DefaultAdListTest.java" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1385820322026" ignored="false" />
-    <file path="/Pow.java" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1385028288183" ignored="false" />
-    <file path="/StepCounter.java" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1385818797278" ignored="false" />
-    <file path="/Implementation.java" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1385835418609" ignored="false" />
-    <file path="/ImplementationTest.java" changelist="2ab99344-2ef4-4cfc-b47c-11316d304dfb" time="1385834046796" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +64,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel url="file://$PROJECT_DIR$/AD" />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -47,24 +76,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/AD/src/hausaufgabe52/ImplementationTest.java" line="22" class="hausaufgabe52.ImplementationTest" package="hausaufgabe52">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -101,6 +112,39 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/AD/src/hausaufgabe5/Implementation.java" line="59" class="hausaufgabe5.Implementation" package="hausaufgabe5">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/AD/src/hausaufgabe5/Implementation.java" line="42" class="hausaufgabe5.Implementation" package="hausaufgabe5">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -110,22 +154,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Implementation.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe52/Implementation.java">
+      <file leaf-file-name="ReservationServices.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/ReservationServices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="37" selection-start="165" selection-end="165" vertical-scroll-proportion="0.28610355">
+            <state line="39" column="1" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="675">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImplementationTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe52/ImplementationTest.java">
+      <file leaf-file-name="IReservationServices.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/IReservationServices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="14" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.31914893" vertical-offset="0" max-vertical-offset="658">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -148,18 +190,69 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AD/src/hausaufgabe2/matrix/MatrixA.java" />
-        <option value="$PROJECT_DIR$/AD/src/test/Test.java" />
-        <option value="$PROJECT_DIR$/AD/src/hausaufgabe1/liste/AdList.java" />
-        <option value="$PROJECT_DIR$/AD/src/hausaufgabe3/pow/PowTest.java" />
-        <option value="$PROJECT_DIR$/AD/src/hausaufgabe3/pow/Pow.java" />
-        <option value="$PROJECT_DIR$/AD/src/counter/StepCounter.java" />
-        <option value="$PROJECT_DIR$/AD/src/hausaufgabe1/liste/DefaultAdList.java" />
-        <option value="$PROJECT_DIR$/AD/src/hausaufgabe1/liste/DefaultAdListTest.java" />
-        <option value="$PROJECT_DIR$/AD/src/hausaufgabe52/ImplementationTest.java" />
-        <option value="$PROJECT_DIR$/AD/src/hausaufgabe52/Implementation.java" />
+        <option value="$PROJECT_DIR$/SE/src/guestComponent/IGuestServices.java" />
+        <option value="$PROJECT_DIR$/SE/src/guestComponent/IGuestServicesForReservation.java" />
+        <option value="$PROJECT_DIR$/SE/src/guestComponent/GuestServicesForReservation.java" />
+        <option value="$PROJECT_DIR$/SE/src/databaseService/TestGuestsDB.java" />
+        <option value="$PROJECT_DIR$/SE/src/databaseService/IGuestsDB.java" />
+        <option value="$PROJECT_DIR$/SE/src/guestComponent/GuestServices.java" />
+        <option value="$PROJECT_DIR$/SE/src/reservationComponent/IReservierungServices.java" />
+        <option value="$PROJECT_DIR$/SE/src/databaseService/IReservationDB.java" />
+        <option value="$PROJECT_DIR$/SE/src/guestComponent/EMail.java" />
+        <option value="$PROJECT_DIR$/SE/src/guestComponent/EMailType.java" />
+        <option value="$PROJECT_DIR$/SE/src/reservationComponent/ReservationTest.java" />
+        <option value="$PROJECT_DIR$/SE-Reservation/pom.xml" />
+        <option value="$PROJECT_DIR$/SE-Reservation/src/main/java/SE-Reservation/databaseService/TestGuestsDB.java" />
+        <option value="$PROJECT_DIR$/SE-Reservation/src/main/java/reservation/databaseService/TestGuestsDB.java" />
+        <option value="$PROJECT_DIR$/SE-Reservation/src/main/java/reservation/databaseService/IReservationDB.java" />
+        <option value="$PROJECT_DIR$/SE-Reservation/src/main/java/reservation/databaseService/IGuestsDB.java" />
+        <option value="$PROJECT_DIR$/SE-Reservation/src/main/java/reservation/databaseService/IAdditionalServicesDB.java" />
+        <option value="$PROJECT_DIR$/SE-Reservation/src/main/java/reservation/guestComponent/EMailType.java" />
+        <option value="$PROJECT_DIR$/SE-Reservation/src/main/java/reservation/guestComponent/Guest.java" />
+        <option value="$PROJECT_DIR$/SE-Reservation/src/main/java/reservation/guestComponent/GuestServices.java" />
+        <option value="$PROJECT_DIR$/SE-Reservation/src/main/java/reservation/guestComponent/GuestServicesForReservation.java" />
+        <option value="$PROJECT_DIR$/SE-Reservation/src/main/java/reservation/guestComponent/IGuestServices.java" />
+        <option value="$PROJECT_DIR$/SE-Reservation/src/main/java/reservation/guestComponent/IGuestServicesForReservation.java" />
+        <option value="$PROJECT_DIR$/SE-Reservation/src/main/java/reservation/reservationComponent/AdditionalService.java" />
+        <option value="$PROJECT_DIR$/SE-Reservation/src/main/java/reservation/reservationComponent/IReservierungServices.java" />
+        <option value="$PROJECT_DIR$/SE-Reservation/src/main/java/reservation/reservationComponent/Reservation.java" />
+        <option value="$PROJECT_DIR$/SE-Reservation/src/main/java/reservation/reservationComponent/ReservationServices.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseService/TestGuestsDB.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/test/java/reservation/databaseService/TestGuestsDBTest.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/test/java/reservation/guestComponent/EMailTypeTest.java" />
+        <option value="$PROJECT_DIR$/SEReservation/pom.xml" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/GuestServicesForReservation.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/test/java/reservation/guestComponent/GuestServicesForReservationTest.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/IGuestServices.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/GuestServices.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/test/java/reservation/guestComponent/GuestServicesTest.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/test/java/reservation/guestComponent/GuestTest.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/test/java/reservation/reservationComponent/AdditionalServiceTest.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseService/IGuestsDB.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseService/IReservationDB.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseService/IAdditionalServicesDB.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/Reservation.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/IAdditionalServicesDB.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/IReservationServices.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/ReservationServices.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/TestGuestsDB.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/Guest.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/EMailType.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/AdditionalService.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/Reservation.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/test/java/reservation/reservationComponent/ReservationTest.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
@@ -174,7 +267,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -193,6 +286,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -207,7 +301,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AD" />
+              <option name="myItemId" value="SEReservation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -217,7 +311,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AD" />
+              <option name="myItemId" value="SEReservation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -225,7 +319,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hausaufgabe52" />
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reservation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -235,57 +337,173 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AD" />
+              <option name="myItemId" value="SEReservation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reservation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SEReservation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reservation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reservationComponent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SEReservation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reservation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guestComponent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SEReservation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reservation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="databaseServices" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="fileTemplates" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="true" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="dynamic.classpath" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="LayoutCode.rearrangeEntriesXML" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="reservation.guestComponent" />
+      <recent name="reservation.reservationComponent" />
+      <recent name="reservation.databaseService" />
+      <recent name="reservationComponent" />
+      <recent name="hausaufgabe9" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="hausaufgabe52" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hausaufgabe9" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SE-Reservation/src/main/java/SE-Reservation" />
+      <recent name="$PROJECT_DIR$/AD/src/hausaufgabe7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ImplementationTest.testF">
-    <configuration default="false" name="DefaultAdListTest.Aufgabe8" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="AD" />
+  <component name="RunManager" selected="JUnit.ReservationTest">
+    <configuration default="false" name="GuestServicesForReservationTest.testMarkGuestAsRegular" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SEReservation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hausaufgabe1.liste" />
-      <option name="MAIN_CLASS_NAME" value="hausaufgabe1.liste.DefaultAdListTest" />
-      <option name="METHOD_NAME" value="Aufgabe8" />
+      <option name="PACKAGE_NAME" value="reservation.guestComponent" />
+      <option name="MAIN_CLASS_NAME" value="reservation.guestComponent.GuestServicesForReservationTest" />
+      <option name="METHOD_NAME" value="testMarkGuestAsRegular" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -301,40 +519,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="DefaultAdListTest.recInsertTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="AD" />
+    <configuration default="false" name="GuestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SEReservation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hausaufgabe1.liste" />
-      <option name="MAIN_CLASS_NAME" value="hausaufgabe1.liste.DefaultAdListTest" />
-      <option name="METHOD_NAME" value="recInsertTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PowTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="AD" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hausaufgabe3.pow" />
-      <option name="MAIN_CLASS_NAME" value="hausaufgabe3.pow.PowTest" />
+      <option name="PACKAGE_NAME" value="reservation.guestComponent" />
+      <option name="MAIN_CLASS_NAME" value="reservation.guestComponent.GuestTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -351,12 +541,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="DefaultAdListTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="AD" />
+    <configuration default="false" name="AdditionalServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SEReservation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hausaufgabe1.liste" />
-      <option name="MAIN_CLASS_NAME" value="hausaufgabe1.liste.DefaultAdListTest" />
+      <option name="PACKAGE_NAME" value="reservation.reservationComponent" />
+      <option name="MAIN_CLASS_NAME" value="reservation.reservationComponent.AdditionalServiceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -369,21 +559,39 @@
       </option>
       <envs />
       <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="ImplementationTest.testF" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="AD" />
+    <configuration default="false" name="ReservationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SEReservation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hausaufgabe52" />
-      <option name="MAIN_CLASS_NAME" value="hausaufgabe52.ImplementationTest" />
-      <option name="METHOD_NAME" value="testF" />
+      <option name="PACKAGE_NAME" value="reservation.reservationComponent" />
+      <option name="MAIN_CLASS_NAME" value="reservation.reservationComponent.ReservationTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReservationTest.testSetRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SEReservation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="reservation.reservationComponent" />
+      <option name="MAIN_CLASS_NAME" value="reservation.reservationComponent.ReservationTest" />
+      <option name="METHOD_NAME" value="testSetRoom" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -405,10 +613,52 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -493,20 +743,39 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DefaultAdListTest.Aufgabe8" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DefaultAdListTest.recInsertTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PowTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DefaultAdListTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ImplementationTest.testF" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.GuestServicesForReservationTest.testMarkGuestAsRegular" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GuestTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AdditionalServiceTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ReservationTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ReservationTest.testSetRoom" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ImplementationTest.testF" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DefaultAdListTest.recInsertTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DefaultAdListTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PowTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DefaultAdListTest.Aufgabe8" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ReservationTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ReservationTest.testSetRoom" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AdditionalServiceTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GuestTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GuestServicesForReservationTest.testMarkGuestAsRegular" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -515,6 +784,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER,SHOW_INTERFACES" />
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -546,95 +818,93 @@
       <created>1384342066119</created>
       <updated>1384342066119</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="SE Reservation">
+      <created>1388866519357</created>
+      <updated>1388866519357</updated>
+    </task>
+    <task id="LOCAL-00004" summary="SE Reservation">
+      <created>1388866549550</created>
+      <updated>1388866549550</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="1276" height="778" extended-state="0" />
-    <editor active="true" />
+    <frame x="4" y="22" width="1276" height="778" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969605" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39795917" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39795917" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878049" sideWeight="0.67021275" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1993517" sideWeight="0.67021275" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24634147" sideWeight="0.60030395" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2941653" sideWeight="0.60030395" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43586007" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39795917" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1993517" sideWeight="0.67021275" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298217" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2941653" sideWeight="0.60030395" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43586007" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
+      <TodoPanelSettings />
     </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="blubb" />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="blubb" />
+    <MESSAGE value="SE Reservation" />
+    <option name="LAST_COMMIT_MESSAGE" value="SE Reservation" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -644,115 +914,372 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe2/matrix/tests/MatrixCAdListTest.java">
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe6/MuesliMixerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="44" column="0" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.46363637" vertical-offset="309" max-vertical-offset="990" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe2/matrix/tests/MatrixATest.java">
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe6/MuesliMixer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0" />
+        <state line="17" column="31" selection-start="351" selection-end="351" vertical-scroll-proportion="-0.045454547" vertical-offset="255" max-vertical-offset="1035" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe2/matrix/tests/MatrixTest.java">
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe6/MuesliZutat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="16" selection-start="6269" selection-end="6269" vertical-scroll-proportion="0.7907743">
-          <folding />
-        </state>
+        <state line="46" column="113" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.79545456" vertical-offset="105" max-vertical-offset="765" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe2/matrix/AbstractMatrix.java">
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe7/StockScanner2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="22" selection-start="3088" selection-end="3088" vertical-scroll-proportion="0.30952382">
-          <folding />
-        </state>
+        <state line="20" column="28" selection-start="501" selection-end="505" vertical-scroll-proportion="-0.47619048" vertical-offset="480" max-vertical-offset="1875" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe2/matrix/MatrixA.java">
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe7/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="204" selection-end="204" vertical-scroll-proportion="0.33278146">
+        <state line="15" column="24" selection-start="373" selection-end="373" vertical-scroll-proportion="0.06613757" vertical-offset="200" max-vertical-offset="1290" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe7/StockScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="5" selection-start="1485" selection-end="2707" vertical-scroll-proportion="0.93161094" vertical-offset="872" max-vertical-offset="1605" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe7/StockScannerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="25" selection-start="3067" selection-end="3067" vertical-scroll-proportion="0.0" vertical-offset="1407" max-vertical-offset="1890" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe9/StockScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="1515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe9/StockScannerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="30" selection-start="331" selection-end="331" vertical-scroll-proportion="0.36363637" vertical-offset="0" max-vertical-offset="2325" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe9/Slope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="65" selection-end="65" vertical-scroll-proportion="0.09090909" vertical-offset="0" max-vertical-offset="660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe9/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="13" selection-start="961" selection-end="961" vertical-scroll-proportion="0.045454547" vertical-offset="555" max-vertical-offset="1215" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/reservationComponent/AdditionalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="31" selection-start="472" selection-end="472" vertical-scroll-proportion="0.54545456" vertical-offset="0" max-vertical-offset="660">
           <folding>
-            <element signature="e#0#1188#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="false" />
+            <element signature="e#329#330#0" expanded="false" />
+            <element signature="e#363#364#0" expanded="false" />
+            <element signature="e#393#394#0" expanded="false" />
+            <element signature="e#439#440#0" expanded="false" />
+            <element signature="e#477#478#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" />
+        <state line="235" column="18" selection-start="10169" selection-end="10169" vertical-scroll-proportion="0.33333334" vertical-offset="2960" max-vertical-offset="8055" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe2/matrix/tests/MatrixCAdListTest.java">
+    <entry file="file://$PROJECT_DIR$/SE/src/guestComponent/IGuestServicesForReservation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="13" selection-start="436" selection-end="436" vertical-scroll-proportion="-0.8716707" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="638" column="0" selection-start="23843" selection-end="23843" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe3/pow/PowTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="12" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
+        <state line="6" column="17" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe3/pow/Pow.java">
+    <entry file="file://$PROJECT_DIR$/SE/src/guestComponent/GuestServicesForReservation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="29" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.8575949">
+        <state line="7" column="3" selection-start="128" selection-end="128" vertical-scroll-proportion="0.1590909" vertical-offset="0" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/guestComponent/GuestServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="48" selection-start="591" selection-end="591" vertical-scroll-proportion="0.5681818" vertical-offset="0" max-vertical-offset="660">
           <folding>
-            <element signature="e#0#1496#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe1/liste/AdList.java">
+    <entry file="file://$PROJECT_DIR$/SE/src/guestComponent/IGuestServices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="8" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.0">
+        <state line="6" column="17" selection-start="111" selection-end="111" vertical-scroll-proportion="0.13636364" vertical-offset="0" max-vertical-offset="660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/databaseService/IReservationDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1" selection-start="130" selection-end="130" vertical-scroll-proportion="0.1590909" vertical-offset="0" max-vertical-offset="660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/reservationComponent/ReservationServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="32" selection-start="132" selection-end="132" vertical-scroll-proportion="0.13636364" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AD/src/counter/StepCounter.java">
+    <entry file="file://$PROJECT_DIR$/SE/src/databaseService/IGuestsDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="10" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe1/liste/DefaultAdListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="195" column="58" selection-start="5193" selection-end="5193" vertical-scroll-proportion="0.0">
+        <state line="14" column="58" selection-start="378" selection-end="378" vertical-scroll-proportion="0.3181818" vertical-offset="0" max-vertical-offset="660">
           <folding>
-            <element signature="e#0#5629#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/databaseService/IAdditionalServicesDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="38" selection-start="133" selection-end="133" vertical-scroll-proportion="0.13636364" vertical-offset="0" max-vertical-offset="660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/guestComponent/Guest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="5" selection-start="353" selection-end="353" vertical-scroll-proportion="0.36363637" vertical-offset="0" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/guestComponent/EMailType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="5" selection-start="655" selection-end="655" vertical-scroll-proportion="0.59090906" vertical-offset="0" max-vertical-offset="660">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/databaseService/TestGuestsDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="23" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.8181818" vertical-offset="135" max-vertical-offset="1050">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/reservationComponent/IReservierungServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="117" selection-end="117" vertical-scroll-proportion="0.13636364" vertical-offset="0" max-vertical-offset="660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/reservationComponent/Reservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="29" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE/src/reservationComponent/ReservationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/test/java/reservation/databaseServices/TestGuestsDBTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="26" selection-start="453" selection-end="453" vertical-scroll-proportion="0.27051672" vertical-offset="122" max-vertical-offset="780">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/test/java/reservation/guestComponent/EMailTypeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="79" selection-start="990" selection-end="990" vertical-scroll-proportion="1.5041783" vertical-offset="0" max-vertical-offset="720">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="42" selection-start="824" selection-end="824" vertical-scroll-proportion="0.4787234" vertical-offset="0" max-vertical-offset="658">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/test/java/reservation/guestComponent/GuestServicesForReservationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="8" selection-start="745" selection-end="745" vertical-scroll-proportion="1.0027856" vertical-offset="0" max-vertical-offset="555">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/GuestServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="1" selection-start="660" selection-end="660" vertical-scroll-proportion="0.5699088" vertical-offset="0" max-vertical-offset="658">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/IGuestServicesForReservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="123" selection-end="123" vertical-scroll-proportion="0.13677812" vertical-offset="0" max-vertical-offset="658">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/test/java/reservation/guestComponent/GuestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="1330" selection-end="1330" vertical-scroll-proportion="2.4233983" vertical-offset="0" max-vertical-offset="960">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/test/java/reservation/guestComponent/GuestServicesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="308" selection-end="308" vertical-scroll-proportion="0.5849582" vertical-offset="0" max-vertical-offset="630">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/test/java/reservation/reservationComponent/AdditionalServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="3" selection-start="206" selection-end="206" vertical-scroll-proportion="-0.33704737" vertical-offset="271" max-vertical-offset="630">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="417" selection-end="417" vertical-scroll-proportion="0.5064935" vertical-offset="0" max-vertical-offset="385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/IGuestsDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="58" selection-start="425" selection-end="425" vertical-scroll-proportion="0.45592704" vertical-offset="0" max-vertical-offset="658">
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe1/liste/DefaultAdList.java">
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/IAdditionalServicesDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="54" selection-start="3524" selection-end="3524" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#6946#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe52/ImplementationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
+        <state line="14" column="52" selection-start="314" selection-end="314" vertical-scroll-proportion="0.31914893" vertical-offset="0" max-vertical-offset="658">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AD/src/hausaufgabe52/Implementation.java">
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/ReservationApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="37" selection-start="165" selection-end="165" vertical-scroll-proportion="0.28610355">
+        <state line="9" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.20516717" vertical-offset="0" max-vertical-offset="658">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/IReservationDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="0.3419453" vertical-offset="0" max-vertical-offset="658">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/TestGuestsDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="33" selection-start="2028" selection-end="2028" vertical-scroll-proportion="0.0" vertical-offset="452" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/EMailType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <folding>
+            <element signature="method#toString#0;class#EMailType#0" expanded="false" />
+            <element signature="method#equals#0;class#EMailType#0" expanded="false" />
+            <element signature="method#hashCode#0;class#EMailType#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/AdditionalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="36" selection-start="590" selection-end="590" vertical-scroll-proportion="0.52431613" vertical-offset="0" max-vertical-offset="658">
+          <folding>
+            <element signature="method#equals#0;class#AdditionalService#0" expanded="false" />
+            <element signature="method#hashCode#0;class#AdditionalService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/IGuestServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="17" selection-start="147" selection-end="147" vertical-scroll-proportion="0.18237083" vertical-offset="0" max-vertical-offset="658">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/GuestServicesForReservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="1" selection-start="510" selection-end="510" vertical-scroll-proportion="0.4787234" vertical-offset="0" max-vertical-offset="658">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/Guest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.8632219" vertical-offset="32" max-vertical-offset="690">
+          <folding>
+            <element signature="method#equals#0;class#Guest#0" expanded="false" />
+            <element signature="method#hashCode#0;class#Guest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/Reservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="36" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.7492401" vertical-offset="152" max-vertical-offset="810">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#equals#0;class#Reservation#0" expanded="false" />
+            <element signature="method#hashCode#0;class#Reservation#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/ReservationServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="1" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/test/java/reservation/reservationComponent/ReservationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="9" selection-start="360" selection-end="360" vertical-scroll-proportion="0.43548387" vertical-offset="66" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/IReservationServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.31914893" vertical-offset="0" max-vertical-offset="658">
           <folding />
         </state>
       </provider>
@@ -763,18 +1290,6 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="Copyright.UI">
-        <settings>
-          <last-edited>flbaue</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -821,6 +1336,20 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>AD</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -831,17 +1360,6 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
