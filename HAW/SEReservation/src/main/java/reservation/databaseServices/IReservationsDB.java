@@ -8,11 +8,11 @@ import java.util.List;
  * Created by Florian Bauer on 04.01.14.
  * flbaue@posteo.de
  */
-public interface IReservationDB {
+public interface IReservationsDB {
 
     int getUniqueNumber();
 
-    void saveReservation(Reservation guest); //TODO throws exception!!
+    void saveReservation(Reservation reservation); //TODO throws exception!!
 
     Reservation getReservationByNumber(int number);
 

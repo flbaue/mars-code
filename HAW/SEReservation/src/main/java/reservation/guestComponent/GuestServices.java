@@ -1,5 +1,6 @@
 package reservation.guestComponent;
 
+import reservation.databaseServices.IDBServicesFactory;
 import reservation.databaseServices.IGuestsDB;
 
 import java.util.List;
@@ -10,10 +11,10 @@ import java.util.List;
  */
 public class GuestServices implements IGuestServices {
 
-    IGuestsDB guestDB;
+    private IGuestsDB guestDB;
 
-    public GuestServices(IGuestsDB guestDB) {
-        this.guestDB = guestDB;
+    public GuestServices(IDBServicesFactory servicesFactory) {
+        this.guestDB = servicesFactory.getGuestsDB();
     }
 
     public Guest createGuest(String name, String eMail) {

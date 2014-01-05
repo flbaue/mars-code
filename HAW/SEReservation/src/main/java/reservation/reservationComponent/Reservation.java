@@ -1,7 +1,6 @@
 package reservation.reservationComponent;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 /**
@@ -43,9 +42,7 @@ public class Reservation {
     }
 
     public List<Integer> getAdditionalServices() {
-        List<Integer> result = new ArrayList<>();
-        Collections.copy(result, additionalServices);
-        return result;
+        return new ArrayList<>(additionalServices);
     }
 
     @Override

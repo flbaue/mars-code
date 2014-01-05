@@ -1,5 +1,6 @@
 package reservation.guestComponent;
 
+import reservation.databaseServices.IDBServicesFactory;
 import reservation.databaseServices.IGuestsDB;
 
 /**
@@ -8,15 +9,16 @@ import reservation.databaseServices.IGuestsDB;
  */
 public class GuestServicesForReservation implements IGuestServicesForReservation {
 
-    IGuestsDB guestDB;
+    private IGuestsDB guestDB;
 
-    public GuestServicesForReservation(IGuestsDB guestDB) {
-        this.guestDB = guestDB;
+    public GuestServicesForReservation(IDBServicesFactory servicesFactory) {
+        this.guestDB = servicesFactory.getGuestsDB();
     }
 
     public void markGuestAsRegular(int number) {
 
         Guest guest = guestDB.getGuestByNumber(number);
         guest.setRegularGuest(true);
+        guestDB.saveGuest(guest);
     }
 }

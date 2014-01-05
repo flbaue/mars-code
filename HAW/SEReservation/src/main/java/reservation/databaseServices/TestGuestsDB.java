@@ -67,6 +67,6 @@ public class TestGuestsDB implements IGuestsDB {
 
     @Override
     public int getUniqueNumber() {
-        return testGuests.size();
+        return testGuests.size() + 1;
     }
 }
