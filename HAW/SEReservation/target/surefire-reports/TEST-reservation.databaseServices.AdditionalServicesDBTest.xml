@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0" errors="0" skipped="0" tests="3" name="reservation.reservationComponent.AdditionalServiceTest">
+<testsuite failures="0" time="0.084" errors="0" skipped="0" tests="4" name="reservation.databaseServices.AdditionalServicesDBTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib"/>
@@ -64,7 +64,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0" classname="reservation.reservationComponent.AdditionalServiceTest" name="testGetService"/>
-  <testcase time="0" classname="reservation.reservationComponent.AdditionalServiceTest" name="testSetService"/>
-  <testcase time="0" classname="reservation.reservationComponent.AdditionalServiceTest" name="testGetNumber"/>
+  <testcase time="0.003" classname="reservation.databaseServices.AdditionalServicesDBTest" name="testSaveAdditionalService"/>
+  <testcase time="0.019" classname="reservation.databaseServices.AdditionalServicesDBTest" name="testGetAdditionalServiceByNumber"/>
+  <testcase time="0.024" classname="reservation.databaseServices.AdditionalServicesDBTest" name="testGetAdditionalServicesByText"/>
+  <testcase time="0.038" classname="reservation.databaseServices.AdditionalServicesDBTest" name="testGetUniqueNumber"/>
 </testsuite>

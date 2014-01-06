@@ -20,7 +20,7 @@ public class GuestsDBTest {
 
     @BeforeClass
     public static void setUp() throws Exception {
-        servicesFactory = new DBServicesFactory(DBServicesFactory.PRODUCTION_ENVIRONMENT, "org.sqlite.JDBC", "jdbc:sqlite:GuestsDBTest.db");
+        servicesFactory = new DBServicesFactory(DBServicesFactory.DATABASE_ENVIRONMENT, "org.sqlite.JDBC", "jdbc:sqlite:GuestsDBTest.db");
         guestsDB = servicesFactory.getGuestsDB();
         Guest guest = new Guest(guestsDB.getUniqueNumber(), "Eric Cartman", new EMailType("thecoon@southpark.de"));
         guestsDB.saveGuest(guest);

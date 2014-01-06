@@ -7,17 +7,17 @@ package reservation.databaseServices;
 public class DBServicesFactory implements IDBServicesFactory {
 
     public static final int TEST_ENVIRONMENT = 0;
-    public static final int PRODUCTION_ENVIRONMENT = 1;
+    public static final int DATABASE_ENVIRONMENT = 1;
     private final int environment;
     private IGuestsDB guestsDB;
     private IReservationsDB reservationsDB;
     private IAdditionalServicesDB additionalServicesDB;
-    private DataBaseUtil dataBaseUtil;
+    private DataBase dataBase;
 
     public DBServicesFactory(int environment, String dbDriver, String dbURL) {
         this.environment = environment;
-        if (this.environment == PRODUCTION_ENVIRONMENT) {
-            dataBaseUtil = new DataBaseUtil(dbURL, dbDriver);
+        if (this.environment == DATABASE_ENVIRONMENT) {
+            dataBase = new DataBase(dbURL, dbDriver);
         }
     }
 
@@ -29,16 +29,14 @@ public class DBServicesFactory implements IDBServicesFactory {
                     guestsDB = new TestGuestsDB();
                 }
                 return guestsDB;
-            case PRODUCTION_ENVIRONMENT:
+            case DATABASE_ENVIRONMENT:
                 if (guestsDB == null) {
-                    guestsDB = new GuestsDB(dataBaseUtil);
+                    guestsDB = new GuestsDB(dataBase);
                 }
                 return guestsDB;
             default:
                 throw new UnsupportedOperationException();
         }
-
-        // TODO support production environment
     }
 
     @Override
@@ -49,11 +47,14 @@ public class DBServicesFactory implements IDBServicesFactory {
                     reservationsDB = new TestReservationsDB();
                 }
                 return reservationsDB;
+            case DATABASE_ENVIRONMENT:
+                if (reservationsDB == null) {
+                    reservationsDB = new ReservationsDB(dataBase);
+                }
+                return reservationsDB;
             default:
                 throw new UnsupportedOperationException();
         }
-
-        // TODO support production environment
     }
 
     @Override
@@ -64,10 +65,13 @@ public class DBServicesFactory implements IDBServicesFactory {
                     additionalServicesDB = new TestAdditionalServicesDB();
                 }
                 return additionalServicesDB;
+            case DATABASE_ENVIRONMENT:
+                if (additionalServicesDB == null) {
+                    additionalServicesDB = new AdditionalServicesDB(dataBase);
+                }
+                return additionalServicesDB;
             default:
                 throw new UnsupportedOperationException();
         }
-
-        // TODO support production environment
     }
 }

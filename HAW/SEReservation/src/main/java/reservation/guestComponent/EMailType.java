@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
  */
 public class EMailType {
 
-    private static final Pattern eMailPattern = Pattern.compile("[a-zA-Z]+[@][a-z]+[.][a-z]+");
+    private static final Pattern eMailPattern = Pattern.compile("[a-zA-Z0-9]+[@][a-z]+[.][a-z]{2,}");
     private final String eMail;
 
     public EMailType(String eMail) {

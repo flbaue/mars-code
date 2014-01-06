@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ab99344-2ef4-4cfc-b47c-11316d304dfb" name="Default" comment="SE Reservation">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/AdditionalServicesDB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/DataBaseUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/GuestsDB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SEReservation/src/test/java/reservation/databaseServices/GuestsDBTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/TestAdditionalServicesDB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/TestReservationsDB.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/IReservationDB.java" afterPath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/IReservationsDB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AD/AD.iml" afterPath="$PROJECT_DIR$/AD/AD.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/GuestServices.java" afterPath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/GuestServices.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/GuestServicesForReservation.java" afterPath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/GuestServicesForReservation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SEReservation/src/test/java/reservation/guestComponent/GuestServicesForReservationTest.java" afterPath="$PROJECT_DIR$/SEReservation/src/test/java/reservation/guestComponent/GuestServicesForReservationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SEReservation/src/test/java/reservation/guestComponent/GuestServicesTest.java" afterPath="$PROJECT_DIR$/SEReservation/src/test/java/reservation/guestComponent/GuestServicesTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/Reservation.java" afterPath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/Reservation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/ReservationApp.java" afterPath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/ReservationApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/ReservationServices.java" afterPath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/ReservationServices.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SE/SE.iml" afterPath="$PROJECT_DIR$/SE/SE.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SEReservation/SEReservation.iml" afterPath="$PROJECT_DIR$/SEReservation/SEReservation.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/TestGuestsDB.java" afterPath="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/TestGuestsDB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuestsDBTest.db" afterPath="$PROJECT_DIR$/GuestsDBTest.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="haw.iws" />
@@ -156,21 +134,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GuestsDB.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/GuestsDB.java">
+      <file leaf-file-name="ReservationsDB.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/ReservationsDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2865">
+            <state line="107" column="46" selection-start="3419" selection-end="3419" vertical-scroll-proportion="0.0" vertical-offset="1300" max-vertical-offset="3930">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SEReservation/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="21" selection-start="1287" selection-end="1287" vertical-scroll-proportion="2.1764705" vertical-offset="0" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReservationsDB.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/ReservationsDB.java">
+      <file leaf-file-name="ReservationServices.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/ReservationServices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="24" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
+            <state line="61" column="13" selection-start="2575" selection-end="2575" vertical-scroll-proportion="0.0" vertical-offset="398" max-vertical-offset="1020">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuestServices.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/GuestServices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="17" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuestsDB.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/GuestsDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="13" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2955">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EMailType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/EMailType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="75" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+              <folding>
+                <element signature="method#toString#0;class#EMailType#0" expanded="false" />
+                <element signature="method#equals#0;class#EMailType#0" expanded="false" />
+                <element signature="method#hashCode#0;class#EMailType#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReservationApp.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/ReservationApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+              <folding>
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -179,77 +210,26 @@
       <file leaf-file-name="DBServicesFactory.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/DBServicesFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1721" selection-end="1721" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
+            <state line="9" column="48" selection-start="250" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="1245">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdditionalServicesDB.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/AdditionalServicesDB.java">
+      <file leaf-file-name="TestGuestsDB.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/TestGuestsDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="82" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2205">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IAdditionalServicesDB.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/IAdditionalServicesDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="31" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IReservationServices.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/IReservationServices.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+            <state line="28" column="0" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataBaseUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/DataBaseUtil.java">
+      <file leaf-file-name="GuestsDBTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SEReservation/src/test/java/reservation/databaseServices/GuestsDBTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="39" selection-start="1673" selection-end="1673" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
+            <state line="22" column="135" selection-start="618" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SEReservation/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="21" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.82417583" vertical-offset="30" max-vertical-offset="690">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IDBServicesFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/IDBServicesFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="37" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IGuestsDB.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/IGuestsDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="58" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -272,8 +252,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/SE-Reservation/src/main/java/reservation/databaseService/TestGuestsDB.java" />
-        <option value="$PROJECT_DIR$/SE-Reservation/src/main/java/reservation/databaseService/IReservationDB.java" />
         <option value="$PROJECT_DIR$/SE-Reservation/src/main/java/reservation/databaseService/IGuestsDB.java" />
         <option value="$PROJECT_DIR$/SE-Reservation/src/main/java/reservation/databaseService/IAdditionalServicesDB.java" />
         <option value="$PROJECT_DIR$/SE-Reservation/src/main/java/reservation/guestComponent/EMailType.java" />
@@ -299,7 +277,6 @@
         <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/IAdditionalServicesDB.java" />
         <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/IReservationServices.java" />
         <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/Guest.java" />
-        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/EMailType.java" />
         <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/AdditionalService.java" />
         <option value="$PROJECT_DIR$/SEReservation/src/test/java/reservation/reservationComponent/ReservationTest.java" />
         <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/TestGuestsDB.java" />
@@ -313,16 +290,19 @@
         <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/ReservationServices.java" />
         <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/GuestServicesForReservation.java" />
         <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/Reservation.java" />
-        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/DBServicesFactory.java" />
-        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/ReservationApp.java" />
         <option value="$PROJECT_DIR$/SEReservation/src/test/java/reservation/guestComponent/GuestServicesTest.java" />
         <option value="$PROJECT_DIR$/SEReservation/src/test/java/reservation/guestComponent/GuestServicesForReservationTest.java" />
         <option value="$PROJECT_DIR$/SEReservation/src/test/java/reservation/databaseServices/GuestsDBTest.java" />
-        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/GuestsDB.java" />
         <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/DataBaseUtil.java" />
-        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/AdditionalServicesDB.java" />
-        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/ReservationsDB.java" />
         <option value="$PROJECT_DIR$/SEReservation/pom.xml" />
+        <option value="$PROJECT_DIR$/SEReservation/src/test/java/reservation/databaseServices/AdditionalServicesDBTest.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/DataBase.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/GuestsDB.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/AdditionalServicesDB.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/DBServicesFactory.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/ReservationApp.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/EMailType.java" />
+        <option value="$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/ReservationsDB.java" />
       </list>
     </option>
   </component>
@@ -425,8 +405,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -497,6 +475,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="guestComponent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SEReservation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reservation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="databaseServices" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -524,66 +532,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="reservation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="haw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SEReservation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reservation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reservationComponent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="haw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SEReservation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reservation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guestComponent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -619,6 +567,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -648,15 +598,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SEReservation" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="reservation.databaseServices" />
       <recent name="reservation.guestComponent" />
       <recent name="reservation.reservationComponent" />
       <recent name="reservation.databaseService" />
       <recent name="reservationComponent" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="hausaufgabe9" />
@@ -666,51 +616,7 @@
       <recent name="$PROJECT_DIR$/AD/src/hausaufgabe7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GuestsDBTest">
-    <configuration default="false" name="GuestsDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reservation.databaseServices.GuestsDB" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="SEReservation" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="GuestsDBTest.testGetUniqueNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SEReservation" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="reservation.databaseServices" />
-      <option name="MAIN_CLASS_NAME" value="reservation.databaseServices.GuestsDBTest" />
-      <option name="METHOD_NAME" value="testGetUniqueNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ReservationApp">
     <configuration default="false" name="GuestsDBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SEReservation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -719,34 +625,6 @@
       <option name="MAIN_CLASS_NAME" value="reservation.databaseServices.GuestsDBTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="GuestsDBTest.testSaveGuest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SEReservation" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="reservation.databaseServices" />
-      <option name="MAIN_CLASS_NAME" value="reservation.databaseServices.GuestsDBTest" />
-      <option name="METHOD_NAME" value="testSaveGuest" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -795,10 +673,90 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="AdditionalServicesDBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SEReservation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="reservation.databaseServices" />
+      <option name="MAIN_CLASS_NAME" value="reservation.databaseServices.AdditionalServicesDBTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AdditionalServicesDBTest.testGetUniqueNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SEReservation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="reservation.databaseServices" />
+      <option name="MAIN_CLASS_NAME" value="reservation.databaseServices.AdditionalServicesDBTest" />
+      <option name="METHOD_NAME" value="testGetUniqueNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReservationApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reservation.ReservationApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SEReservation" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -823,45 +781,12 @@
       </MavenSettings>
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -889,6 +814,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -945,19 +883,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.GuestsDB" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.GuestsDBTest.testGetUniqueNumber" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.GuestsDBTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.GuestsDBTest.testSaveGuest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GuestsDBTest.testGetGuestsByName" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.GuestsDBTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GuestsDBTest.testGetGuestsByName" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AdditionalServicesDBTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AdditionalServicesDBTest.testGetUniqueNumber" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ReservationApp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GuestsDBTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GuestsDBTest.testGetGuestsByName" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.GuestsDBTest.testGetUniqueNumber" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.GuestsDBTest.testSaveGuest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.GuestsDB" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ReservationApp" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AdditionalServicesDBTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GuestsDBTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AdditionalServicesDBTest.testGetUniqueNumber" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GuestsDBTest.testGetGuestsByName" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -967,7 +905,7 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER,SHOW_INTERFACES" />
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER" />
   </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
     <option name="USER" value="" />
@@ -1033,33 +971,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1276" height="778" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39795917" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39795917" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994187" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994187" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1993517" sideWeight="0.67021275" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25850892" sideWeight="0.67021275" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2941653" sideWeight="0.60030395" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43440235" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43440235" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="99" y="132" width="1076" height="578" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39941692" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1080,13 +1018,13 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994187" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1993517" sideWeight="0.67021275" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298217" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2941653" sideWeight="0.60030395" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43440235" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -1118,11 +1056,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SE/src/guestComponent/IGuestServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="111" selection-end="111" vertical-scroll-proportion="0.13636364" vertical-offset="0" max-vertical-offset="660" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SE/src/databaseService/IReservationDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="1" selection-start="130" selection-end="130" vertical-scroll-proportion="0.1590909" vertical-offset="0" max-vertical-offset="660" />
@@ -1207,17 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/EMailType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="9" selection-start="590" selection-end="590" vertical-scroll-proportion="0.4318182" vertical-offset="0" max-vertical-offset="660">
-          <folding>
-            <element signature="method#toString#0;class#EMailType#0" expanded="false" />
-            <element signature="method#equals#0;class#EMailType#0" expanded="false" />
-            <element signature="method#hashCode#0;class#EMailType#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/IReservationsDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="48" selection-start="298" selection-end="298" vertical-scroll-proportion="0.28257456" vertical-offset="0" max-vertical-offset="637">
@@ -1232,18 +1154,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/GuestServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="654" selection-end="654" vertical-scroll-proportion="0.47727272" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/ReservationServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="33" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/AdditionalService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="36" selection-start="590" selection-end="590" vertical-scroll-proportion="0.52431613" vertical-offset="0" max-vertical-offset="675" />
@@ -1255,13 +1165,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/TestGuestsDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.2987013" vertical-offset="245" max-vertical-offset="1110">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1346,74 +1249,19 @@
         <state line="292" column="0" selection-start="9231" selection-end="9231" vertical-scroll-proportion="1.0165746" vertical-offset="3517" max-vertical-offset="7635" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SEReservation/src/test/java/reservation/databaseServices/GuestsDBTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.0" vertical-offset="688" max-vertical-offset="1035">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/ReservationApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="44" selection-start="550" selection-end="550" vertical-scroll-proportion="0.23255815" vertical-offset="0" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/Reservation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="5" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/AdditionalServicesDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="82" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2205">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/IDBServicesFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="37" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+        <state line="6" column="37" selection-start="145" selection-end="145" vertical-scroll-proportion="0.13636364" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/IGuestsDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="58" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+        <state line="20" column="58" selection-start="426" selection-end="426" vertical-scroll-proportion="0.4090909" vertical-offset="0" max-vertical-offset="660">
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/GuestsDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2865">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/ReservationsDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="24" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/DBServicesFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1721" selection-end="1721" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1433,16 +1281,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/DataBaseUtil.java">
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/test/java/reservation/databaseServices/AdditionalServicesDBTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="39" selection-start="1673" selection-end="1673" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
+        <state line="54" column="0" selection-start="1800" selection-end="1800" vertical-scroll-proportion="1.5994236" vertical-offset="255" max-vertical-offset="900">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/Reservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="13" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.8662614" vertical-offset="0" max-vertical-offset="960">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/AdditionalServicesDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="567" selection-end="567" vertical-scroll-proportion="-1.6443769" vertical-offset="1412" max-vertical-offset="2445">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/DataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="9" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/test/java/reservation/databaseServices/GuestsDBTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="135" selection-start="618" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/TestGuestsDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/DBServicesFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="48" selection-start="250" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="1245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/ReservationApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/GuestServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="17" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/GuestsDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2955">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/guestComponent/EMailType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="75" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <folding>
+            <element signature="method#toString#0;class#EMailType#0" expanded="false" />
+            <element signature="method#equals#0;class#EMailType#0" expanded="false" />
+            <element signature="method#hashCode#0;class#EMailType#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/reservationComponent/ReservationServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="13" selection-start="2575" selection-end="2575" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SEReservation/src/main/java/reservation/databaseServices/ReservationsDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="46" selection-start="3419" selection-end="3419" vertical-scroll-proportion="0.0" vertical-offset="1300" max-vertical-offset="3930">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SEReservation/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="21" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.82417583" vertical-offset="30" max-vertical-offset="690">
+        <state line="37" column="21" selection-start="1287" selection-end="1287" vertical-scroll-proportion="2.1764705" vertical-offset="0" max-vertical-offset="690">
           <folding />
         </state>
       </provider>

@@ -16,7 +16,7 @@ public class ReservationApp {
 
     public static void main(String[] args) {
 
-        IDBServicesFactory idbServicesFactory = new DBServicesFactory(DBServicesFactory.TEST_ENVIRONMENT,"org.sqlite.JDBC","jdbc:sqlite:ReservationSystem.db");
+        IDBServicesFactory idbServicesFactory = new DBServicesFactory(DBServicesFactory.DATABASE_ENVIRONMENT,"org.sqlite.JDBC","jdbc:sqlite:ReservationSystem.db");
 
         IGuestServices guestServices = new GuestServices(idbServicesFactory);
         IReservationServices reservationServices = new ReservationServices(idbServicesFactory);

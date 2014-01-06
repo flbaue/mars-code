@@ -6,12 +6,12 @@ import java.sql.*;
  * Created by Florian Bauer on 05.01.14.
  * flbaue@posteo.de
  */
-public class DataBaseUtil {
+public class DataBase {
 
     private String dbURL;
     private Connection connection;
 
-    public DataBaseUtil(String dbURL, String dbDriver) {
+    public DataBase(String dbURL, String dbDriver) {
         this.dbURL = dbURL;
         try {
             Class.forName(dbDriver);
@@ -20,7 +20,7 @@ public class DataBaseUtil {
         }
     }
 
-    private void connect() {
+    public void connect() {
         try {
             connection = DriverManager.getConnection(dbURL);
         } catch (SQLException e) {
@@ -30,7 +30,8 @@ public class DataBaseUtil {
 
     public void close() {
         try {
-            connection.close();
+            if(connection != null)
+                connection.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -38,7 +39,6 @@ public class DataBaseUtil {
     }
 
     public boolean tableExists(String tableName) {
-        connect();
         boolean result = true;
         try {
             Statement stmt = connection.createStatement();
@@ -55,7 +55,6 @@ public class DataBaseUtil {
     }
 
     public ResultSet executeQuery(String query) {
-        connect();
         ResultSet rs = null;
         try {
             Statement stmt = connection.createStatement();
@@ -68,7 +67,6 @@ public class DataBaseUtil {
     }
 
     public void execute(String query) {
-        connect();
         try {
             Statement stmt = connection.createStatement();
             stmt.execute(query);
