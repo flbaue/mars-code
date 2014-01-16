@@ -41,8 +41,8 @@ public class StockScanner2 {
         int rightSpread = optRight.get(1).getValue() - optRight.get(0).getValue();
 
 
-        Point min = findMin(optLeft);
-        Point max = findMax(optRight);
+        Point min = findMin(left);
+        Point max = findMax(right);
         int spread = max.getValue() - min.getValue();
 
 

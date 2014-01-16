@@ -1,5 +1,6 @@
 package hausaufgabe7;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -14,16 +15,38 @@ public class StockScannerTest {
     private StockScanner stockScanner = new StockScanner();
     private StockScanner2 stockScanner2 = new StockScanner2();
 
-//    @Before
-//    public void setUp() throws Exception {
+    @Before
+    public void setUp() throws Exception {
 //
-//        int numberOfPoints = 500;
-//        stock = new ArrayList<>(numberOfPoints);
+        int numberOfPoints = 10;
+        stock = new ArrayList<>(numberOfPoints);
 //
 //        for(int i = 0; i < numberOfPoints; i++) {
-//            int value = (int) Math.round(Math.random() * 10);
+//            int value = (int) Math.round(Math.random() * 1000);
 //            stock.add(new Point(value,i));
 //        }
+
+//        stock.add(new Point(94,0));
+//        stock.add(new Point(549,1));
+//        stock.add(new Point(885,2));
+//        stock.add(new Point(70,3));
+//        stock.add(new Point(26,4));
+//        stock.add(new Point(861,5));
+//        stock.add(new Point(493,6));
+//        stock.add(new Point(737,7));
+//        stock.add(new Point(385,8));
+//        stock.add(new Point(866,9));
+
+        stock.add(new Point(0,0));
+        stock.add(new Point(1,1));
+        stock.add(new Point(2,2));
+        stock.add(new Point(0,3));
+        stock.add(new Point(0,4));
+        stock.add(new Point(1,5));
+        stock.add(new Point(6,6));
+        stock.add(new Point(2,7));
+        stock.add(new Point(1,8));
+        stock.add(new Point(1,9));
 
 //        stock.add(new Point(10,0));
 //        stock.add(new Point(9,1));
@@ -58,34 +81,34 @@ public class StockScannerTest {
 //        stock.add(new Point(2,8));
 //        stock.add(new Point(6,9));
 
-//    }
+    }
 //
-//    @Test
-//    public void testFindOptimum() throws Exception {
-//
-//        long start = 0;
-//        long end = 0;
-//
-//        System.out.println("Normal:");
-//        start = System.currentTimeMillis();
-//        List<Point> optimum = stockScanner.findOptimum(stock);
-//        end = System.currentTimeMillis();
-////        System.out.println("Stock:");
-////        System.out.println(stock);
-//        System.out.println("\noptimum:");
-//        System.out.println(optimum);
-//        System.out.println("Milliseconds: " + (end - start));
-//
-//        System.out.println("\nTeile und Hersche:");
-//        start = System.currentTimeMillis();
-//        List<Point> optimum2 = stockScanner2.findOptimum(stock);
-//        end = System.currentTimeMillis();
-////        System.out.println("Stock:");
-////        System.out.println(stock);
-//        System.out.println("\noptimum:");
-//        System.out.println(optimum2);
-//        System.out.println("Milliseconds: " + (end - start));
-//    }
+    @Test
+    public void testFindOptimum() throws Exception {
+
+        long start = 0;
+        long end = 0;
+
+        System.out.println("Normal:");
+        start = System.currentTimeMillis();
+        List<Point> optimum = stockScanner.findOptimum(stock);
+        end = System.currentTimeMillis();
+       System.out.println("Stock:");
+        System.out.println(stock);
+        System.out.println("\noptimum:");
+        System.out.println(optimum);
+        System.out.println("Milliseconds: " + (end - start));
+
+        System.out.println("\nTeile und Hersche:");
+        start = System.currentTimeMillis();
+        List<Point> optimum2 = stockScanner2.findOptimum(stock);
+        end = System.currentTimeMillis();
+        System.out.println("Stock:");
+        System.out.println(stock);
+        System.out.println("\noptimum:");
+        System.out.println(optimum2);
+        System.out.println("Milliseconds: " + (end - start));
+    }
 
     @Test
     public void testTime() throws Exception {
