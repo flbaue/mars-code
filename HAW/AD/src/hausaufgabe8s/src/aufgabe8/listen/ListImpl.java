@@ -193,6 +193,8 @@ public class ListImpl implements List {
 	}
 	
 	@Override public List merge(List list){
+        //die Liste wird verkehrt herum aufgebaut und am Ende
+        //gibt es ein reverse
 		List merged = this.valueOf();
 		while(!this.isEmpty() || !list.isEmpty()){
 			Number elem1 = null;
@@ -205,27 +207,36 @@ public class ListImpl implements List {
 			}
 			if(elem1 != null && elem2 != null){
 				if(elem1.doubleValue() < elem2.doubleValue()){
-					merged.insertRec(elem1, merged.length());
+                    merged.cons(elem1);
+					//merged.insertRec(elem1, merged.length());
 					this.head();
 				}
 				else{
-					merged.insertRec(elem2, merged.length());
+                    merged.cons(elem2);
+					//merged.insertRec(elem2, merged.length());
 					list.head();
 				}
 			}
 			else if ( !this.isEmpty()){
-				merged.insertRec(elem1, merged.length());
+                merged.cons(elem1);
+				//merged.insertRec(elem1, merged.length());
 				this.head();
 			}
 			else {
-				merged.insertRec(elem2, merged.length());
+                merged.cons(elem2);
+				//merged.insertRec(elem2, merged.length());
 				list.head();
 			}
 		}
 		//System.out.println(merged);
 		//this.nextElem = ListElem.valueOf(merged.getFirst(),merged.getNext());
 		//this.counter = merged.length();
-		return merged;
+        List result = this.valueOf();
+        while(merged.length() > 0){
+            result.cons(merged.getFirst());
+            merged.head();
+        }
+		return result;
 	}
 	
 	@Override public List mergeSort(){
@@ -236,11 +247,13 @@ public class ListImpl implements List {
 			List list2 = this.valueOf();
 			int tmp = this.counter/2;
 			for(int i = 0; i < tmp; i++){
-				list1.insertRec(this.getFirst(), list1.length());
+                list1.cons(this.getFirst());
+				//list1.insertRec(this.getFirst(), list1.length());
 				this.head();
 			}
 			while(this.counter > 0){
-				list2.insertRec(this.getFirst(), list2.length());
+                list2.cons(this.getFirst());
+				//list2.insertRec(this.getFirst(), list2.length());
 				this.head();
 			}
 			list1 = list1.mergeSort();
