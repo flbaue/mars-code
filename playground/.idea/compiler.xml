@@ -22,7 +22,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="List" />
+        <module name="Hibernate" />
+        <module name="Hibernate_Tutorial" />
+        <module name="list" />
         <module name="test" />
       </profile>
     </annotationProcessing>

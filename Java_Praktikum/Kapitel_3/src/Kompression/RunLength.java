@@ -8,7 +8,6 @@ package Kompression;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.MatchResult;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -31,11 +30,11 @@ public class RunLength {
 
         Pattern p = Pattern.compile("(.)\1*");
         Matcher m = p.matcher(input);
-       while(m.find()) {
-           String x  = m.group(1);
-           String x2 = input.substring(m.start(),m.end());
-           groups.add(x);
-       }
+        while (m.find()) {
+            String x = m.group(1);
+            String x2 = input.substring(m.start(), m.end());
+            groups.add(x);
+        }
 
 
         return "";
