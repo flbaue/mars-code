@@ -4,7 +4,7 @@
  * Copyright (c) 2014.
  */
 
-package fbaue.messenger.server;
+package fbaue.messenger.common;
 
 import java.io.Serializable;
 
@@ -27,8 +27,16 @@ public class Client implements Serializable {
         return host;
     }
 
+    public void setHost(String host) {
+        this.host = host;
+    }
+
     public int getPort() {
         return port;
+    }
+
+    public void setPort(int port) {
+        this.port = port;
     }
 
     @Override

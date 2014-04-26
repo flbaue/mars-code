@@ -6,11 +6,17 @@
 
 package fbaue.messenger.server;
 
+import fbaue.messenger.common.Client;
+import fbaue.messenger.common.Message;
+import fbaue.messenger.common.MessengerUtil;
+
+import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.concurrent.BlockingDeque;
+import java.util.zip.GZIPInputStream;
 
 /**
  * Created by Florian Bauer on 24.04.14. flbaue@posteo.de
@@ -32,8 +38,11 @@ public class Receiver implements Runnable {
             serverSocket = new ServerSocket(port);
             while (!Thread.currentThread().isInterrupted()) {
                 Socket clientSocket = serverSocket.accept();
-                ObjectInputStream in = new ObjectInputStream(clientSocket.getInputStream());
+                ObjectInputStream in = new ObjectInputStream(new GZIPInputStream(new BufferedInputStream(clientSocket.getInputStream
+                        ())));
                 Message message = (Message) in.readObject();
+                Client sender = message.getSender();
+                sender.setHost(clientSocket.getInetAddress().getHostAddress());
                 messageQueue.addLast(message);
                 in.close();
             }

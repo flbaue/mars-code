@@ -4,7 +4,7 @@
  * Copyright (c) 2014.
  */
 
-package fbaue.messenger.server;
+package fbaue.messenger.common;
 
 import java.io.Serializable;
 
@@ -99,5 +99,19 @@ public class Message implements Serializable {
 
     public void setReceiver(Client receiver) {
         this.receiver = receiver;
+    }
+
+    @Override
+    public Message clone() {
+        Message message = new Message();
+        message.setCommand(command);
+        message.setText(text);
+        if (binary != null)
+            message.setBinary(binary.clone());
+        else
+            message.setBinary(null);
+        message.setSender(sender);
+        message.setReceiver(receiver);
+        return message;
     }
 }

@@ -4,7 +4,7 @@
  * Copyright (c) 2014.
  */
 
-package fbaue.messenger.server;
+package fbaue.messenger.common;
 
 import java.io.IOException;
 import java.net.ServerSocket;

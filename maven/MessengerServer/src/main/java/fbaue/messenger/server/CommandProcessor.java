@@ -6,6 +6,10 @@
 
 package fbaue.messenger.server;
 
+import fbaue.messenger.common.Client;
+import fbaue.messenger.common.Message;
+import fbaue.messenger.common.MessageCommand;
+
 import java.util.Set;
 import java.util.concurrent.BlockingDeque;
 
@@ -89,6 +93,6 @@ public class CommandProcessor implements Runnable {
         } else {
             response.setText("LOGIN FAILD");
         }
-        addToBroadcastQueue(response);
+        messageBroadcastQueue.add(response);
     }
 }

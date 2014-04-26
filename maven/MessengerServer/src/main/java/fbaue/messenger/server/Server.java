@@ -6,6 +6,9 @@
 
 package fbaue.messenger.server;
 
+import fbaue.messenger.common.Client;
+import fbaue.messenger.common.Message;
+
 import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.BlockingDeque;
@@ -46,24 +49,24 @@ public class Server {
         broadcasterThread.setName("broadcasterThread");
         broadcasterThread.start();
 
-        while (!Thread.currentThread().isInterrupted()) {
-            try {
-                Thread.currentThread().wait(5000);
-
-                if (!receiverThread.isAlive() || receiverThread.isInterrupted()) {
-                    System.out.println("-> receiverThread has stopped!");
-                }
-
-                if (!broadcasterThread.isAlive() || broadcasterThread.isInterrupted()) {
-                    System.out.println("-> broadcasterThread has stopped!");
-                }
-
-                if (!commandProcessorThread.isAlive() || commandProcessorThread.isInterrupted()) {
-                    System.out.println("-> commandProcessorThread has stopped!");
-                }
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
+//        while (!Thread.currentThread().isInterrupted()) {
+//            try {
+//                Thread.currentThread().wait(5000);
+//
+//                if (!receiverThread.isAlive() || receiverThread.isInterrupted()) {
+//                    System.out.println("-> receiverThread has stopped!");
+//                }
+//
+//                if (!broadcasterThread.isAlive() || broadcasterThread.isInterrupted()) {
+//                    System.out.println("-> broadcasterThread has stopped!");
+//                }
+//
+//                if (!commandProcessorThread.isAlive() || commandProcessorThread.isInterrupted()) {
+//                    System.out.println("-> commandProcessorThread has stopped!");
+//                }
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//        }
     }
 }
